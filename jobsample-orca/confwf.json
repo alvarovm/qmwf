@@ -1,0 +1,7 @@
+{
+"qmwfpath" : "/home/vama/soft/python-tests/qmwf",
+"parallelization_method" : "subprocess",
+"jobtype" : "orca",
+"callscript" : "/home/vama/soft/python-tests/qmwf/pythonlibs/orcawf/callorca_pre.py",
+"replicas" : 2
+}

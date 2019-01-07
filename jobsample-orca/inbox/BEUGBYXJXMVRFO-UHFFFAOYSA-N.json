@@ -1,0 +1,2331 @@
+{
+    "PRISTINE": [
+        {
+            "SMI_TYPE": "CAN", 
+            "NEL": 120, 
+            "SMI": "CN(c1ccc(cc1)C(=O)c1ccccc1)C"
+        }
+    ], 
+    "FILTERED": [
+        {
+            "STATUS": "NonAlkyl", 
+            "NEL": 120, 
+            "mopac": [
+                {
+                    "orbital_energy_list": [
+                        {
+                            "spin": "alpha", 
+                            "energy": -36.3766, 
+                            "type": "occ", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -31.12761, 
+                            "type": "occ", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -30.40792, 
+                            "type": "occ", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -30.13622, 
+                            "type": "occ", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -27.00987, 
+                            "type": "occ", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -26.43274, 
+                            "type": "occ", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -25.98525, 
+                            "type": "occ", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -25.64883, 
+                            "type": "occ", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -24.94487, 
+                            "type": "occ", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -24.01429, 
+                            "type": "occ", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -22.1598, 
+                            "type": "occ", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -21.13501, 
+                            "type": "occ", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -20.88434, 
+                            "type": "occ", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -20.46237, 
+                            "type": "occ", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -19.31424, 
+                            "type": "occ", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -18.27938, 
+                            "type": "occ", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -17.39397, 
+                            "type": "occ", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.57591, 
+                            "type": "occ", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.22249, 
+                            "type": "occ", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.02741, 
+                            "type": "occ", 
+                            "number": 20, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.53175, 
+                            "type": "occ", 
+                            "number": 21, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.13197, 
+                            "type": "occ", 
+                            "number": 22, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.04282, 
+                            "type": "occ", 
+                            "number": 23, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.77157, 
+                            "type": "occ", 
+                            "number": 24, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.4533, 
+                            "type": "occ", 
+                            "number": 25, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.40395, 
+                            "type": "occ", 
+                            "number": 26, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.25075, 
+                            "type": "occ", 
+                            "number": 27, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.05347, 
+                            "type": "occ", 
+                            "number": 28, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.79458, 
+                            "type": "occ", 
+                            "number": 29, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.54216, 
+                            "type": "occ", 
+                            "number": 30, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.49776, 
+                            "type": "occ", 
+                            "number": 31, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.12946, 
+                            "type": "occ", 
+                            "number": 32, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.00967, 
+                            "type": "occ", 
+                            "number": 33, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.71455, 
+                            "type": "occ", 
+                            "number": 34, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.38625, 
+                            "type": "occ", 
+                            "number": 35, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.97119, 
+                            "type": "occ", 
+                            "number": 36, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.7306, 
+                            "type": "occ", 
+                            "number": 37, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -10.76271, 
+                            "type": "occ", 
+                            "number": 38, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -10.00298, 
+                            "type": "occ", 
+                            "number": 39, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -9.94489, 
+                            "type": "occ", 
+                            "number": 40, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -9.89106, 
+                            "type": "occ", 
+                            "number": 41, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -9.8517, 
+                            "type": "occ", 
+                            "number": 42, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -8.4316, 
+                            "type": "occ", 
+                            "number": 43, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -0.39283, 
+                            "type": "unocc", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.09202, 
+                            "type": "unocc", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.17128, 
+                            "type": "unocc", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.27078, 
+                            "type": "unocc", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 1.41628, 
+                            "type": "unocc", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 1.94743, 
+                            "type": "unocc", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.44123, 
+                            "type": "unocc", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.6799, 
+                            "type": "unocc", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.43575, 
+                            "type": "unocc", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.75301, 
+                            "type": "unocc", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.96315, 
+                            "type": "unocc", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.27139, 
+                            "type": "unocc", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.39454, 
+                            "type": "unocc", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.53092, 
+                            "type": "unocc", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.58639, 
+                            "type": "unocc", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.72538, 
+                            "type": "unocc", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.89911, 
+                            "type": "unocc", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.96193, 
+                            "type": "unocc", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.04171, 
+                            "type": "unocc", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.09607, 
+                            "type": "unocc", 
+                            "number": 20, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.12526, 
+                            "type": "unocc", 
+                            "number": 21, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.16374, 
+                            "type": "unocc", 
+                            "number": 22, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.23209, 
+                            "type": "unocc", 
+                            "number": 23, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.25811, 
+                            "type": "unocc", 
+                            "number": 24, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.35285, 
+                            "type": "unocc", 
+                            "number": 25, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.48389, 
+                            "type": "unocc", 
+                            "number": 26, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.6046, 
+                            "type": "unocc", 
+                            "number": 27, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.665, 
+                            "type": "unocc", 
+                            "number": 28, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.77449, 
+                            "type": "unocc", 
+                            "number": 29, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.81853, 
+                            "type": "unocc", 
+                            "number": 30, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.85174, 
+                            "type": "unocc", 
+                            "number": 31, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.93841, 
+                            "type": "unocc", 
+                            "number": 32, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.04815, 
+                            "type": "unocc", 
+                            "number": 33, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.06391, 
+                            "type": "unocc", 
+                            "number": 34, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.09419, 
+                            "type": "unocc", 
+                            "number": 35, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.11778, 
+                            "type": "unocc", 
+                            "number": 36, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.16741, 
+                            "type": "unocc", 
+                            "number": 37, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.2906, 
+                            "type": "unocc", 
+                            "number": 38, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.32905, 
+                            "type": "unocc", 
+                            "number": 39, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.40092, 
+                            "type": "unocc", 
+                            "number": 40, 
+                            "method": "rhf"
+                        }
+                    ], 
+                    "meta_data": {
+                        "generation": 1, 
+                        "program": "MOPAC", 
+                        "worker_name": "BEUGBYXJXMVRFO-UHFFFAOYSA-N_CONF_0", 
+                        "version": "17.093L)", 
+                        "wall_clock_time": 2.424
+                    }, 
+                    "coords": [
+                        {
+                            "y": -1.12424247, 
+                            "x": -4.10987324, 
+                            "z": 0.68998693, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.22522238, 
+                            "x": -3.55262685, 
+                            "z": 0.50706374, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 0.32485567, 
+                            "x": -2.26672417, 
+                            "z": -0.02815095, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.74202955, 
+                            "x": -1.3486329, 
+                            "z": 0.11572055, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.58681647, 
+                            "x": -0.02892335, 
+                            "z": -0.27518576, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.61645017, 
+                            "x": 0.41341415, 
+                            "z": -0.82977808, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.66083255, 
+                            "x": -0.49684533, 
+                            "z": -1.01573724, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.527109, 
+                            "x": -1.81844882, 
+                            "z": -0.61989468, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.80870587, 
+                            "x": 1.81110643, 
+                            "z": -1.25573615, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.54868571, 
+                            "x": 2.0974544, 
+                            "z": -2.17049877, 
+                            "element": "O"
+                        }, 
+                        {
+                            "y": 0.07438174, 
+                            "x": 2.88100018, 
+                            "z": -0.52755317, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.07621176, 
+                            "x": 2.83191275, 
+                            "z": 0.85829634, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.75185746, 
+                            "x": 3.85728405, 
+                            "z": 1.51588424, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.272593, 
+                            "x": 4.92807576, 
+                            "z": 0.78946979, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.11077842, 
+                            "x": 4.98028493, 
+                            "z": -0.59424287, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.43029437, 
+                            "x": 3.959335, 
+                            "z": -1.25446621, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.21037184, 
+                            "x": -4.55575321, 
+                            "z": 0.07487428, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.67089784, 
+                            "x": -3.51089862, 
+                            "z": 1.44208066, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.71143849, 
+                            "x": -4.13180536, 
+                            "z": -0.24314714, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.06625874, 
+                            "x": -5.13718044, 
+                            "z": 1.08685704, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.68821342, 
+                            "x": -1.66499306, 
+                            "z": 0.54162298, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.41936603, 
+                            "x": 0.66906796, 
+                            "z": -0.15610718, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.59079998, 
+                            "x": -0.15610324, 
+                            "z": -1.48203529, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.35785761, 
+                            "x": -2.49922713, 
+                            "z": -0.77123915, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.33945208, 
+                            "x": 1.99739026, 
+                            "z": 1.42460971, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.87143875, 
+                            "x": 3.82262032, 
+                            "z": 2.59648297, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.80260037, 
+                            "x": 5.7274994, 
+                            "z": 1.30419486, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.51053261, 
+                            "x": 5.81952627, 
+                            "z": -1.15895637, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.2809077, 
+                            "x": 4.00064974, 
+                            "z": -2.33508001, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.20577252, 
+                            "x": -4.72718353, 
+                            "z": -1.01431423, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.22297684, 
+                            "x": -4.23406188, 
+                            "z": 0.3828043, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.0230219, 
+                            "x": -5.51889624, 
+                            "z": 0.57926207, 
+                            "element": "H"
+                        }
+                    ], 
+                    "properties": {
+                        "electronic_energy": -16314.49392, 
+                        "electric_dipole_moment_norm": 4.98699, 
+                        "molecular_weight": 225.2896, 
+                        "core_core_repulsion": 13788.79501, 
+                        "gap": 8.039, 
+                        "lumo": -0.393, 
+                        "homo": -8.432, 
+                        "total_energy": -2525.69891, 
+                        "occupied_orbital_number": 43, 
+                        "heat_of_formation": 13.63698
+                    }, 
+                    "theory": {
+                        "name": "semiempirical_pm7", 
+                        "description": "PM7 optimization"
+                    }
+                }
+            ], 
+            "SMI_TYPE": "CAN", 
+            "SMI": "CN(c1ccc(cc1)C(=O)c1ccccc1)C", 
+            "conformers": [
+                {
+                    "mffenergy": "71.6388436626", 
+                    "coords": [
+                        {
+                            "y": -1.0955, 
+                            "x": -4.2447, 
+                            "z": 0.6277, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.2336, 
+                            "x": -3.666, 
+                            "z": 0.4329, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 0.3351, 
+                            "x": -2.3354, 
+                            "z": 0.0089, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.7334, 
+                            "x": -1.428, 
+                            "z": 0.1412, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.6364, 
+                            "x": -0.0864, 
+                            "z": -0.2587, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.557, 
+                            "x": 0.3974, 
+                            "z": -0.7896, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.6327, 
+                            "x": -0.4732, 
+                            "z": -0.9436, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.5211, 
+                            "x": -1.811, 
+                            "z": -0.538, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.7073, 
+                            "x": 1.805, 
+                            "z": -1.2353, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.3997, 
+                            "x": 2.0514, 
+                            "z": -2.2198, 
+                            "element": "O"
+                        }, 
+                        {
+                            "y": 0.0401, 
+                            "x": 2.9217, 
+                            "z": -0.5191, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.1128, 
+                            "x": 2.9163, 
+                            "z": 0.8728, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.7352, 
+                            "x": 3.9925, 
+                            "z": 1.5087, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.1931, 
+                            "x": 5.0775, 
+                            "z": 0.7606, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.0227, 
+                            "x": 5.0953, 
+                            "z": -0.6236, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.4011, 
+                            "x": 4.0221, 
+                            "z": -1.2634, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.2819, 
+                            "x": -4.6142, 
+                            "z": 0.0579, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.6322, 
+                            "x": -3.7407, 
+                            "z": 1.4384, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.6864, 
+                            "x": -4.1941, 
+                            "z": -0.2936, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.032, 
+                            "x": -5.2988, 
+                            "z": 0.9207, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.6827, 
+                            "x": -1.7435, 
+                            "z": 0.5638, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.508, 
+                            "x": 0.5545, 
+                            "z": -0.1565, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.5667, 
+                            "x": -0.1189, 
+                            "z": -1.3749, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.4009, 
+                            "x": -2.4333, 
+                            "z": -0.6713, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.2625, 
+                            "x": 2.0933, 
+                            "z": 1.4758, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.8543, 
+                            "x": 3.9903, 
+                            "z": 2.5896, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.6732, 
+                            "x": 5.9167, 
+                            "z": 1.2584, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.3671, 
+                            "x": 5.9472, 
+                            "z": -1.2046, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.2595, 
+                            "x": 4.0441, 
+                            "z": -2.3422, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.3466, 
+                            "x": -4.7196, 
+                            "z": -1.0307, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.2548, 
+                            "x": -4.3092, 
+                            "z": 0.4582, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.0854, 
+                            "x": -5.6079, 
+                            "z": 0.4761, 
+                            "element": "H"
+                        }
+                    ]
+                }
+            ], 
+            "orca": {
+                "excited_states": [
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 37, 
+                                "final": 1, 
+                                "amplitude": -0.16228852
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": 0.25224754
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": 0.17626292
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": 0.29830591
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": -0.15267031
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": 0.10264879
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.13602093
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": 0.19351806
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": -0.54865991
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": -0.30138639
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": 0.36358173
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 5, 
+                                "amplitude": 0.27331867
+                            }
+                        ], 
+                        "state_number": 1, 
+                        "energy": 2.073, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 32, 
+                                "final": 8, 
+                                "amplitude": 0.10306195
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": -0.11159276
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": 0.23972942
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": -0.23278365
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": 0.20372053
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": 0.15808359
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": 0.43432464
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": -0.33504993
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": 0.38348249
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.40804682
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.21113842
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": 0.12001435
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 5, 
+                                "amplitude": -0.17843471
+                            }
+                        ], 
+                        "state_number": 2, 
+                        "energy": 2.193, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 38, 
+                                "final": 1, 
+                                "amplitude": -0.80201789
+                            }, 
+                            {
+                                "initial": 38, 
+                                "final": 5, 
+                                "amplitude": -0.43088447
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": -0.23487592
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 5, 
+                                "amplitude": -0.10294513
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": 0.10617755
+                            }
+                        ], 
+                        "state_number": 3, 
+                        "energy": 3.098, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 38, 
+                                "final": 1, 
+                                "amplitude": -0.10216867
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": -0.23040323
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": -0.32547463
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": -0.3902693
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": 0.11186545
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": 0.21415388
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.18766934
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": -0.18632439
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": -0.24705322
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": -0.46438449
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": -0.36628055
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 4, 
+                                "amplitude": -0.27031566
+                            }
+                        ], 
+                        "state_number": 4, 
+                        "energy": 3.417, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 38, 
+                                "final": 1, 
+                                "amplitude": -0.82524705
+                            }, 
+                            {
+                                "initial": 38, 
+                                "final": 5, 
+                                "amplitude": -0.42939509
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": -0.21641931
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": 0.11760824
+                            }
+                        ], 
+                        "state_number": 5, 
+                        "energy": 3.432, 
+                        "oscillator_strength": 0.001796843
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 37, 
+                                "final": 4, 
+                                "amplitude": -0.10092372
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": 0.24046342
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": 0.28038957
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": 0.20683735
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 5, 
+                                "amplitude": -0.13013818
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": -0.11286797
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": 0.15282109
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": 0.15890626
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": 0.21633109
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": -0.34000987
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": -0.4330189
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 4, 
+                                "amplitude": -0.55609501
+                            }
+                        ], 
+                        "state_number": 6, 
+                        "energy": 3.464, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 38, 
+                                "final": 1, 
+                                "amplitude": -0.10269387
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": 0.2525277
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": -0.27147924
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": 0.4791781
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": -0.15325
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": 0.46811953
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": -0.13551944
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 5, 
+                                "amplitude": -0.16307929
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.17252988
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": 0.34979539
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.12237332
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": -0.33980435
+                            }
+                        ], 
+                        "state_number": 7, 
+                        "energy": 3.634, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 38, 
+                                "final": 1, 
+                                "amplitude": -0.13725611
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": -0.23305043
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": 0.24217046
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": 0.17876559
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": -0.48175314
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": -0.16097399
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": 0.37824322
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": 0.43431239
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.11796513
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.38375471
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": -0.10560733
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 5, 
+                                "amplitude": -0.12465196
+                            }
+                        ], 
+                        "state_number": 8, 
+                        "energy": 3.676, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": -0.57542476
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": -0.1547193
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": 0.25835424
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 8, 
+                                "amplitude": 0.1900727
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 9, 
+                                "amplitude": -0.12458156
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 10, 
+                                "amplitude": 0.11072732
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": 0.23391571
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": -0.12756948
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.35957771
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.19215017
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.17558703
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 8, 
+                                "amplitude": 0.10266036
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": -0.20115072
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": -0.17580362
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 4, 
+                                "amplitude": -0.25736857
+                            }
+                        ], 
+                        "state_number": 9, 
+                        "energy": 4.044, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 37, 
+                                "final": 1, 
+                                "amplitude": -0.10567763
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.11713467
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": -0.88207754
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": -0.24023033
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": 0.21872182
+                            }
+                        ], 
+                        "state_number": 10, 
+                        "energy": 4.183, 
+                        "oscillator_strength": 0.356599392
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 29, 
+                                "final": 1, 
+                                "amplitude": 0.1012432
+                            }, 
+                            {
+                                "initial": 31, 
+                                "final": 5, 
+                                "amplitude": 0.10139368
+                            }, 
+                            {
+                                "initial": 33, 
+                                "final": 1, 
+                                "amplitude": -0.17581598
+                            }, 
+                            {
+                                "initial": 34, 
+                                "final": 1, 
+                                "amplitude": 0.18706088
+                            }, 
+                            {
+                                "initial": 35, 
+                                "final": 1, 
+                                "amplitude": -0.23409849
+                            }, 
+                            {
+                                "initial": 35, 
+                                "final": 5, 
+                                "amplitude": -0.10271921
+                            }, 
+                            {
+                                "initial": 36, 
+                                "final": 1, 
+                                "amplitude": 0.19767612
+                            }, 
+                            {
+                                "initial": 37, 
+                                "final": 1, 
+                                "amplitude": 0.26734901
+                            }, 
+                            {
+                                "initial": 37, 
+                                "final": 5, 
+                                "amplitude": 0.13146463
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": 0.10460835
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": -0.1284152
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": -0.10953016
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": 0.12992985
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 5, 
+                                "amplitude": -0.10374269
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.1464478
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.20134145
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 5, 
+                                "amplitude": -0.20050404
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": 0.3158677
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": -0.22165854
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": 0.27484187
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 5, 
+                                "amplitude": 0.46701029
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 8, 
+                                "amplitude": -0.12475992
+                            }
+                        ], 
+                        "state_number": 11, 
+                        "energy": 4.252, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": 0.34751791
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": 0.17612957
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": -0.2138
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 5, 
+                                "amplitude": -0.11006933
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": -0.18405871
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": 0.31420886
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": 0.12611732
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": 0.40500442
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": 0.36374751
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 4, 
+                                "amplitude": 0.54216397
+                            }
+                        ], 
+                        "state_number": 12, 
+                        "energy": 4.283, 
+                        "oscillator_strength": 0.00422677
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": 0.29816123
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": 0.23009816
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": 0.46740568
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": -0.42454279
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": 0.14949488
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": 0.17209918
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 5, 
+                                "amplitude": -0.11315667
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.20870021
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.18085205
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": -0.37576157
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": 0.34671192
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": 0.14570619
+                            }
+                        ], 
+                        "state_number": 13, 
+                        "energy": 4.547, 
+                        "oscillator_strength": 0.00574047
+                    }, 
+                    {
+                        "multiplicity": "triplet", 
+                        "orbital_list": [
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": -0.23265705
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": -0.20585653
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": 0.12601248
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": -0.38032483
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": 0.34909794
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": -0.20924025
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 8, 
+                                "amplitude": -0.12149096
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": 0.29339667
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.4454081
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": -0.43936098
+                            }
+                        ], 
+                        "state_number": 14, 
+                        "energy": 4.547, 
+                        "oscillator_strength": 0.0
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 38, 
+                                "final": 1, 
+                                "amplitude": -0.21072465
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": -0.18072511
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": 0.11413348
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": 0.39213912
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": 0.21435157
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": -0.15796559
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": 0.72016006
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.22483234
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.17118901
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": -0.10940519
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 4, 
+                                "amplitude": -0.10001641
+                            }
+                        ], 
+                        "state_number": 15, 
+                        "energy": 4.875, 
+                        "oscillator_strength": 0.190271735
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 37, 
+                                "final": 1, 
+                                "amplitude": -0.19278602
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": -0.15050236
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": -0.14642221
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.10344546
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": -0.11101756
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 1, 
+                                "amplitude": -0.30447823
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": 0.50692942
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": -0.47750097
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 5, 
+                                "amplitude": -0.49277359
+                            }
+                        ], 
+                        "state_number": 16, 
+                        "energy": 5.261, 
+                        "oscillator_strength": 0.024278223
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": -0.53935596
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": 0.31419204
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": 0.14698205
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": -0.12835844
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.37578612
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.13315043
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": 0.19306117
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 2, 
+                                "amplitude": 0.28363217
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": 0.32427746
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 4, 
+                                "amplitude": 0.34939253
+                            }
+                        ], 
+                        "state_number": 17, 
+                        "energy": 5.415, 
+                        "oscillator_strength": 0.354471171
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 38, 
+                                "final": 1, 
+                                "amplitude": 0.1275875
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": 0.12024223
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": 0.21096444
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": -0.2846086
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": -0.34387863
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": 0.17125233
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": 0.3954383
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": -0.26090788
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 5, 
+                                "amplitude": -0.18700201
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": -0.16135566
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.49854852
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": 0.16020926
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 5, 
+                                "amplitude": -0.24537995
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 4, 
+                                "amplitude": -0.15622946
+                            }
+                        ], 
+                        "state_number": 18, 
+                        "energy": 5.604, 
+                        "oscillator_strength": 0.207319385
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 39, 
+                                "final": 1, 
+                                "amplitude": -0.49893243
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": 0.13460213
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 1, 
+                                "amplitude": -0.47338322
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": -0.25782095
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 3, 
+                                "amplitude": -0.22806198
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": 0.23208047
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 5, 
+                                "amplitude": -0.14102172
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 1, 
+                                "amplitude": 0.22901997
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.21192653
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": -0.23645632
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": 0.29712082
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 5, 
+                                "amplitude": 0.13995534
+                            }
+                        ], 
+                        "state_number": 19, 
+                        "energy": 5.719, 
+                        "oscillator_strength": 0.229053947
+                    }, 
+                    {
+                        "multiplicity": "singlet", 
+                        "orbital_list": [
+                            {
+                                "initial": 37, 
+                                "final": 1, 
+                                "amplitude": 0.14254734
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 2, 
+                                "amplitude": -0.35338961
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 3, 
+                                "amplitude": -0.21452856
+                            }, 
+                            {
+                                "initial": 39, 
+                                "final": 4, 
+                                "amplitude": -0.41609425
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 2, 
+                                "amplitude": 0.28461474
+                            }, 
+                            {
+                                "initial": 40, 
+                                "final": 4, 
+                                "amplitude": 0.17921514
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 2, 
+                                "amplitude": -0.13171895
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 3, 
+                                "amplitude": -0.33088997
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 4, 
+                                "amplitude": -0.28711044
+                            }, 
+                            {
+                                "initial": 41, 
+                                "final": 5, 
+                                "amplitude": 0.14008074
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 3, 
+                                "amplitude": 0.17256745
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 5, 
+                                "amplitude": 0.11062405
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 6, 
+                                "amplitude": -0.25430147
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 7, 
+                                "amplitude": 0.26085235
+                            }, 
+                            {
+                                "initial": 42, 
+                                "final": 9, 
+                                "amplitude": 0.12003153
+                            }
+                        ], 
+                        "state_number": 20, 
+                        "energy": 5.906, 
+                        "oscillator_strength": 0.452861736
+                    }
+                ], 
+                "meta_data": {
+                    "worker_name": "zindo", 
+                    "program": "ORCA", 
+                    "version": "3.0.3", 
+                    "wall_clock_time": 2.328
+                }, 
+                "theory": {
+                    "name": "semiempirical_zindo", 
+                    "description": "ZINDO/S"
+                }
+            }
+        }
+    ], 
+    "inchikey": "BEUGBYXJXMVRFO-UHFFFAOYSA-N", 
+    "lock": "ready"
+}

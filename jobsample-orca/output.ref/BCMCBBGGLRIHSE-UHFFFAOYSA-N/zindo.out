@@ -1,0 +1,1653 @@
+
+                                 *****************
+                                 * O   R   C   A *
+                                 *****************
+
+           --- An Ab Initio, DFT and Semiempirical electronic structure package ---
+
+                  #######################################################
+                  #                        -***-                        #
+                  #  Department of molecular theory and spectroscopy    #
+                  #              Directorship: Frank Neese              #
+                  # Max Planck Institute for Chemical Energy Conversion #
+                  #                  D-45470 Muelheim/Ruhr              #
+                  #                       Germany                       #
+                  #                                                     #
+                  #                  All rights reserved                #
+                  #                        -***-                        #
+                  #######################################################
+
+
+                         Program Version 3.0.3 - RELEASE   -
+
+
+ With contributions from (in alphabetic order):
+   Ute Becker             : Parallelization
+   Dmytro Bykov           : SCF Hessian
+   Dmitry Ganyushin       : Spin-Orbit,Spin-Spin,Magnetic field MRCI
+   Andreas Hansen         : Spin unrestricted coupled pair/coupled cluster methods
+   Dimitrios Liakos       : Extrapolation schemes; parallel MDCI
+   Robert Izsak           : Overlap fitted RIJCOSX, COSX-SCS-MP3
+   Christian Kollmar      : KDIIS, OOCD, Brueckner-CCSD(T), CCSD density
+   Simone Kossmann        : Meta GGA functionals, TD-DFT gradient, OOMP2, MP2 Hessian
+   Taras Petrenko         : DFT Hessian,TD-DFT gradient, ASA and ECA modules, normal mode analysis, Resonance Raman, ABS, FL, XAS/XES, NRVS
+   Christoph Reimann      : Effective Core Potentials
+   Michael Roemelt        : Restricted open shell CIS
+   Christoph Riplinger    : Improved optimizer, TS searches, QM/MM, DLPNO-CCSD
+   Barbara Sandhoefer     : DKH picture change effects
+   Igor Schapiro          : Molecular dynamics
+   Kantharuban Sivalingam : CASSCF convergence, NEVPT2
+   Boris Wezisla          : Elementary symmetry handling
+   Frank Wennmohs         : Technical directorship
+
+
+ We gratefully acknowledge several colleagues who have allowed us to
+ interface, adapt or use parts of their codes:
+   Stefan Grimme, W. Hujo, H. Kruse, T. Risthaus : VdW corrections, initial TS optimization,
+                                                   DFT functionals, gCP
+   Ed Valeev                                     : LibInt (2-el integral package), F12 methods
+   Garnet Chan, S. Sharma, R. Olivares           : DMRG
+   Ulf Ekstrom                                   : XCFun DFT Library
+   Mihaly Kallay                                 : mrcc  (arbitrary order and MRCC methods)
+   Andreas Klamt, Michael Diedenhofen            : otool_cosmo (COSMO solvation model)
+   Frank Weinhold                                : gennbo (NPA and NBO analysis)
+   Christopher J. Cramer and Donald G. Truhlar   : smd solvation model
+
+
+ Your calculation uses the libint2 library for the computation of 2-el integrals
+ For citations please refer to: http://libint.valeyev.net
+
+ This ORCA versions uses:
+   CBLAS   interface :  Fast vector & matrix operations
+   LAPACKE interface :  Fast linear algebra routines
+   SCALAPACK package :  Parallel linear algebra routines
+
+
+leaving
+================================================================================
+                                        WARNINGS
+                       Please study these warnings very carefully!
+================================================================================
+Now building the actual basis set
+
+WARNING: Direct SCF is incompatible with Method<>HF and Method<>DFT
+  ===> : conventional SCF is chosen
+
+WARNING: The NDO methods need Guess=HUECKEL or Guess=HCORE or Guess=MOREAD
+  ===> : Guess is set to Hueckel
+
+WARNING: The NDO methods need %rel::SOCType==1
+  ===> : %rel::SOCType is set to 1
+
+WARNING: The NDO methods cannot have frozencore=1
+  ===> : %method FrozenCore=0 end
+INFO   : Checking CIS options ...
+
+
+INFO   : the flag for use of LIBINT has been found!
+
+================================================================================
+                                       INPUT FILE
+================================================================================
+NAME = BCMCBBGGLRIHSE-UHFFFAOYSA-N.inp
+|  1> !RHF ZINDO/S TightSCF DIIS NoRICO NoMOPrint
+|  2> %cis NRoots 10
+|  3> MaxDim 25
+|  4> triplets true
+|  5> end
+|  6> 
+|  7> * xyz 0 1
+|  8> C 1.72054 0.80896 -0.14802
+|  9> C 1.82358 -0.56519 0.12247
+| 10> C 0.70036 -1.37499 0.27512
+| 11> C -0.54016 -0.76179 0.14694
+| 12> C -0.62133 0.63327 -0.12802
+| 13> C 0.48673 1.44515 -0.28046
+| 14> O -1.95526 0.97840 -0.20520
+| 15> C -2.64410 -0.22171 0.02592
+| 16> N -1.86421 -1.24972 0.23371
+| 17> H 2.63450 1.39431 -0.25799
+| 18> H 2.81523 -1.00852 0.21519
+| 19> H 0.77730 -2.44011 0.48466
+| 20> H 0.40117 2.50672 -0.48957
+| 21> H -3.71237 -0.12463 -0.00106
+| 22> **                         ****END OF INPUT****
+================================================================================
+
+                       ****************************
+                       * Single Point Calculation *
+                       ****************************
+
+---------------------------------
+CARTESIAN COORDINATES (ANGSTROEM)
+---------------------------------
+  C      1.720540    0.808960   -0.148020
+  C      1.823580   -0.565190    0.122470
+  C      0.700360   -1.374990    0.275120
+  C     -0.540160   -0.761790    0.146940
+  C     -0.621330    0.633270   -0.128020
+  C      0.486730    1.445150   -0.280460
+  O     -1.955260    0.978400   -0.205200
+  C     -2.644100   -0.221710    0.025920
+  N     -1.864210   -1.249720    0.233710
+  H      2.634500    1.394310   -0.257990
+  H      2.815230   -1.008520    0.215190
+  H      0.777300   -2.440110    0.484660
+  H      0.401170    2.506720   -0.489570
+  H     -3.712370   -0.124630   -0.001060
+
+----------------------------
+CARTESIAN COORDINATES (A.U.)
+----------------------------
+  NO LB      ZA    FRAG    MASS        X           Y           Z
+   0 C     4.0000    0    12.011          3.251349402456870          1.528712853296936         -0.279717262343024
+   1 C     4.0000    0    12.011          3.446066783296116         -1.068054313630952          0.231434759621336
+   2 C     4.0000    0    12.011          1.323488595153088         -2.598354536880382          0.519901453964415
+   3 C     4.0000    0    12.011         -1.020754468498903         -1.439574471559870          0.277676358118389
+   4 C     4.0000    0    12.011         -1.174143538789291          1.196706868828311         -0.241922739664599
+   5 C     4.0000    0    12.011          0.919786401163491          2.730937722436297         -0.529992591519554
+   6 O     6.0000    0    15.999         -3.694905920610867          1.848908049428553         -0.387771802680641
+   7 C     4.0000    0    12.011         -4.996624870701181         -0.418971181151681          0.048981701391239
+   8 N     5.0000    0    14.007         -3.522846356117336         -2.361628544084066          0.441647894758736
+   9 H     1.0000    0     1.008          4.978483499815538          2.634864045787740         -0.487530445290344
+  10 H     1.0000    0     1.008          5.320013703999125         -1.905826600582261          0.406650166758514
+  11 H     1.0000    0     1.008          1.468884123896989         -4.611139636642585          0.915874668066274
+  12 H     1.0000    0     1.008          0.758101433145189          4.737014294423080         -0.925153223383827
+  13 H     1.0000    0     1.008         -7.015362607785237         -0.235516568070606         -0.002003109701957
+
+--------------------------------
+INTERNAL COORDINATES (ANGSTROEM)
+--------------------------------
+ C      0   0   0   0.000000     0.000     0.000
+ C      1   0   0   1.404304     0.000     0.000
+ C      2   1   0   1.393091   122.057     0.000
+ C      3   2   1   1.389725   116.944     0.030
+ C      4   3   2   1.424213   120.059     0.000
+ C      5   4   3   1.382094   123.436   359.973
+ O      5   4   3   1.380015   108.111   179.950
+ C      7   5   4   1.402919   104.564     0.000
+ N      8   7   5   1.306985   113.957     0.000
+ H      1   2   3   1.090895   118.881   180.012
+ H      2   1   3   1.090187   118.754   179.999
+ H      3   2   1   1.088259   122.211   179.994
+ H      6   5   4   1.085347   122.182   180.017
+ H      8   7   5   1.073011   114.035   180.024
+
+---------------------------
+INTERNAL COORDINATES (A.U.)
+---------------------------
+ C      0   0   0   0.000000     0.000     0.000
+ C      1   0   0   2.653750     0.000     0.000
+ C      2   1   0   2.632560   122.057     0.000
+ C      3   2   1   2.626199   116.944     0.030
+ C      4   3   2   2.691373   120.059     0.000
+ C      5   4   3   2.611779   123.436   359.973
+ O      5   4   3   2.607850   108.111   179.950
+ C      7   5   4   2.651132   104.564     0.000
+ N      8   7   5   2.469844   113.957     0.000
+ H      1   2   3   2.061492   118.881   180.012
+ H      2   1   3   2.060155   118.754   179.999
+ H      3   2   1   2.056511   122.211   179.994
+ H      6   5   4   2.051009   122.182   180.017
+ H      8   7   5   2.027697   114.035   180.024
+
+----------------------------
+SLATER BASIS SET DIM=  41
+----------------------------
+  0 C     2 shells
+ l=0 nsto= 1
+    2       1.625000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.625000000000        1.000000000000
+  1 C     2 shells
+ l=0 nsto= 1
+    2       1.625000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.625000000000        1.000000000000
+  2 C     2 shells
+ l=0 nsto= 1
+    2       1.625000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.625000000000        1.000000000000
+  3 C     2 shells
+ l=0 nsto= 1
+    2       1.625000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.625000000000        1.000000000000
+  4 C     2 shells
+ l=0 nsto= 1
+    2       1.625000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.625000000000        1.000000000000
+  5 C     2 shells
+ l=0 nsto= 1
+    2       1.625000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.625000000000        1.000000000000
+  6 O     2 shells
+ l=0 nsto= 1
+    2       2.275000000000        1.000000000000
+ l=1 nsto= 1
+    2       2.275000000000        1.000000000000
+  7 C     2 shells
+ l=0 nsto= 1
+    2       1.625000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.625000000000        1.000000000000
+  8 N     2 shells
+ l=0 nsto= 1
+    2       1.950000000000        1.000000000000
+ l=1 nsto= 1
+    2       1.950000000000        1.000000000000
+  9 H     1 shells
+ l=0 nsto= 1
+    1       1.200000000000        1.000000000000
+ 10 H     1 shells
+ l=0 nsto= 1
+    1       1.200000000000        1.000000000000
+ 11 H     1 shells
+ l=0 nsto= 1
+    1       1.200000000000        1.000000000000
+ 12 H     1 shells
+ l=0 nsto= 1
+    1       1.200000000000        1.000000000000
+ 13 H     1 shells
+ l=0 nsto= 1
+    1       1.200000000000        1.000000000000
+------------------------------------------------------------------------------
+                           ORCA NDO INTEGRAL CALCULATION
+------------------------------------------------------------------------------
+
+--------------
+NDO PARAMETERS
+--------------
+
+Gamma integral treatment              ... Mataga-Nishimoto
+Nuclear repulsuion treatment          ... Direct (ZA*ZB/RAB)
+Interaction factors:
+s-s (sigma) =    1.0000
+s-p (sigma) =    1.0000
+s-d (sigma) =    1.0000
+p-p (sigma) =    1.2670  p-p(pi) =    0.5850
+p-d (sigma) =    1.0000  p-d(pi) =    1.0000
+d-d (sigma) =    1.0000  d-d(pi) =    1.0000 d-d (delta) =    1.0000
+
+fGamma parameter for Mataga-Nishimoto gamma integrals:    1.2000
+
+--------------------------
+Parameters for Element H :
+--------------------------
+ One-electron parameters (in eV)
+  U(s)  =   -13.060000 Beta(s) =    12.000000 Neff(s) =     1.000000
+ One-center electron repulsion parameters (in eV)
+  G(s,s)=    12.850000
+--------------------------
+Parameters for Element C :
+--------------------------
+ One-electron parameters (in eV)
+  U(s)  =   -50.870766 Beta(s) =    17.000000 Neff(s) =     2.000000
+  U(p)  =   -41.599980 Beta(p) =    17.000000 Neff(p) =     2.000000 
+ One-center electron repulsion parameters (in eV)
+  G(s,s)=    11.110000
+  G(s,p)=    11.110000 G(p,p)  =    11.110000
+ Slater-Condon parameters (in eV)
+ F2(p,p)=     4.5098 G1(s,p)=    6.8977
+--------------------------
+Parameters for Element N :
+--------------------------
+ One-electron parameters (in eV)
+  U(s)  =   -69.250864 Beta(s) =    26.000000 Neff(s) =     2.000000
+  U(p)  =   -58.070401 Beta(p) =    26.000000 Neff(p) =     3.000000 
+ One-center electron repulsion parameters (in eV)
+  G(s,s)=    12.010000
+  G(s,p)=    12.010000 G(p,p)  =    12.010000
+ Slater-Condon parameters (in eV)
+ F2(p,p)=     6.4594 G1(s,p)=    8.9583
+--------------------------
+Parameters for Element O :
+--------------------------
+ One-electron parameters (in eV)
+  U(s)  =   -90.023218 Beta(s) =    34.000000 Neff(s) =     2.000000
+  U(p)  =   -76.684970 Beta(p) =    34.000000 Neff(p) =     4.000000 
+ One-center electron repulsion parameters (in eV)
+  G(s,s)=    13.000000
+  G(s,p)=    13.000000 G(p,p)  =    13.000000
+ Slater-Condon parameters (in eV)
+ F2(p,p)=     6.9027 G1(s,p)=   11.8152
+
+ Number of atoms                    ....   14
+ Number of basis functions          ....   41
+
+ Overlap integrals                  .... done
+ One electron matrix                .... done
+ Nuclear repulsion                  .... done
+ Integral list                      .... done
+ Electron-electron repulsion        .... done
+-------------------------------------------------------------------------------
+                                 ORCA SCF
+-------------------------------------------------------------------------------
+
+------------
+SCF SETTINGS
+------------
+Hamiltonian:
+ ZDO-Hamiltonian        Method          .... INDO
+
+
+General Settings:
+ Integral files         IntName         .... BCMCBBGGLRIHSE-UHFFFAOYSA-N
+ Hartree-Fock type      HFTyp           .... RHF
+ Total Charge           Charge          ....    0
+ Multiplicity           Mult            ....    1
+ Number of Electrons    NEL             ....   44
+ Basis Dimension        Dim             ....   41
+ Nuclear Repulsion      ENuc            ....    200.7253122626 Eh
+
+Convergence Acceleration:
+ DIIS                   CNVDIIS         .... on
+   Start iteration      DIISMaxIt       ....    12
+   Startup error        DIISStart       ....  0.200000
+   # of expansion vecs  DIISMaxEq       ....     5
+   Bias factor          DIISBfac        ....   1.050
+   Max. coefficient     DIISMaxC        ....  10.000
+ Newton-Raphson         CNVNR           .... off
+ SOSCF                  CNVSOSCF        .... on
+   Start iteration      SOSCFMaxIt      ....   150
+   Startup grad/error   SOSCFStart      ....  0.003300
+ Level Shifting         CNVShift        .... on
+   Level shift para.    LevelShift      ....    0.2500
+   Turn off err/grad.   ShiftErr        ....    0.0010
+ Zerner damping         CNVZerner       .... off
+ Static damping         CNVDamp         .... on
+   Fraction old density DampFac         ....    0.7000
+   Max. Damping (<1)    DampMax         ....    0.9800
+   Min. Damping (>=0)   DampMin         ....    0.0000
+   Turn off err/grad.   DampErr         ....    0.1000
+ Fernandez-Rico         CNVRico         .... off
+
+SCF Procedure:
+ Maximum # iterations   MaxIter         ....   125
+ SCF integral mode      SCFMode         .... Conventional
+ Integral Buffer length BufferLength    .... 1048576
+ Integral index format  IndFormat       ....     0
+ Integral value format  ValFormat       ....     0
+ Integral Storage       Thresh          ....  2.500e-11 Eh
+
+Convergence Tolerance:
+ Convergence Check Mode ConvCheckMode   .... Total+1el-Energy
+ Energy Change          TolE            ....  1.000e-08 Eh
+ 1-El. energy change                    ....  1.000e-05 Eh
+ Orbital Gradient       TolG            ....  1.000e-05
+ Orbital Rotation angle TolX            ....  1.000e-05
+ DIIS Error             TolErr          ....  5.000e-07
+
+
+Diagonalization of the overlap matrix:
+Smallest eigenvalue                        ... 1.481e-01
+Time for diagonalization                   ...    0.000 sec
+Threshold for overlap eigenvalues          ... 1.000e-08
+Number of eigenvalues below threshold      ... 0
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
+
+-------------------------------
+INITIAL GUESS: EXTENDED HUECKEL
+-------------------------------
+EHT matrix was read from disk
+EHT matrix was diagonalized
+Initial density was built
+                      ------------------
+                      INITIAL GUESS DONE
+                      ------------------
+
+ InCore treatment chosen:
+   Memory dedicated               ...    1024 MB
+   Memory needed                  ...      0 MB
+   Number of tiny    integrals    ...       0
+   Number of small   integrals    ...       0
+   Number of regular integrals    ...     915
+
+--------------
+SCF ITERATIONS
+--------------
+ITER       Energy         Delta-E        Max-DP      RMS-DP      [F,P]     Damp
+  0     -3.3321819528   0.000000000000 0.05364883  0.00301352  0.2099567 0.7000
+  1     -3.3584907075  -0.026308754686 0.04720798  0.00278986  0.1595435 0.7000
+                               ***Turning on DIIS***
+  2     -3.3782518489  -0.019761141386 0.03654423  0.00211965  0.1171763 0.7000
+  3     -3.3546094016   0.023642447306 0.09960067  0.00530579  0.0859066 0.0000
+  4     -3.4235424070  -0.068933005420 0.01388141  0.00081246  0.0129601 0.0000
+  5     -3.4286074212  -0.005065014179 0.00550531  0.00036808  0.0044081 0.0000
+                      *** Initiating the SOSCF procedure ***
+                           *** Shutting down DIIS ***
+                      *** Re-Reading the Fockian *** 
+                      *** Removing any level shift *** 
+ITER      Energy       Delta-E        Grad      Rot      Max-DP    RMS-DP
+  6     -3.43080163  -0.0021942053  0.000869  0.000869  0.002510  0.000181
+  7     -3.43005719   0.0007444343  0.000394  0.000915  0.001567  0.000102
+  8     -3.43006216  -0.0000049630  0.000148  0.000659  0.001305  0.000080
+  9     -3.43006336  -0.0000012063  0.000039  0.000075  0.000225  0.000011
+ 10     -3.43006340  -0.0000000419  0.000011  0.000020  0.000042  0.000003
+ 11     -3.43006341  -0.0000000062  0.000005  0.000021  0.000034  0.000002
+                 **** Energy Check signals convergence ****
+              ***Rediagonalizing the Fockian in SOSCF/NRSCF***
+
+               *****************************************************
+               *                     SUCCESS                       *
+               *           SCF CONVERGED AFTER  12 CYCLES          *
+               *****************************************************
+
+
+----------------
+TOTAL SCF ENERGY
+----------------
+
+Total Energy       :           -3.43006341 Eh             -93.33677 eV
+
+Components:
+Nuclear Repulsion  :          200.72531226 Eh            5462.01343 eV
+Electronic Energy  :         -204.15537567 Eh           -5555.35020 eV
+
+One Electron Energy:         -373.48659255 Eh          -10163.08686 eV
+Two Electron Energy:          169.33121688 Eh            4607.73666 eV
+
+
+---------------
+SCF CONVERGENCE
+---------------
+
+  Last Energy change         ...   -1.0649e-09  Tolerance :   1.0000e-08
+  Last MAX-Density change    ...    1.6253e-05  Tolerance :   1.0000e-07
+  Last RMS-Density change    ...    8.5021e-07  Tolerance :   5.0000e-09
+  Last Orbital Gradient      ...    2.0498e-06  Tolerance :   1.0000e-05
+  Last Orbital Rotation      ...    8.4928e-06  Tolerance :   1.0000e-05
+
+             **** THE GBW FILE WAS UPDATED (BCMCBBGGLRIHSE-UHFFFAOYSA-N.gbw) ****
+             **** DENSITY FILE WAS UPDATED (BCMCBBGGLRIHSE-UHFFFAOYSA-N.scfp.tmp) ****
+             **** ENERGY FILE WAS UPDATED (BCMCBBGGLRIHSE-UHFFFAOYSA-N.en.tmp) ****
+----------------
+ORBITAL ENERGIES
+----------------
+
+  NO   OCC          E(Eh)            E(eV) 
+   0   2.0000      -1.850138       -50.3448 
+   1   2.0000      -1.567526       -42.6546 
+   2   2.0000      -1.373488       -37.3745 
+   3   2.0000      -1.197067       -32.5739 
+   4   2.0000      -1.138532       -30.9810 
+   5   2.0000      -0.982410       -26.7327 
+   6   2.0000      -0.934846       -25.4384 
+   7   2.0000      -0.922213       -25.0947 
+   8   2.0000      -0.755216       -20.5505 
+   9   2.0000      -0.719732       -19.5849 
+  10   2.0000      -0.682796       -18.5798 
+  11   2.0000      -0.616037       -16.7632 
+  12   2.0000      -0.606435       -16.5019 
+  13   2.0000      -0.571993       -15.5647 
+  14   2.0000      -0.553004       -15.0480 
+  15   2.0000      -0.494873       -13.4662 
+  16   2.0000      -0.484497       -13.1838 
+  17   2.0000      -0.467994       -12.7348 
+  18   2.0000      -0.437821       -11.9137 
+  19   2.0000      -0.408120       -11.1055 
+  20   2.0000      -0.334819        -9.1109 
+  21   2.0000      -0.312525        -8.5042 
+  22   0.0000      -0.007716        -0.2100 
+  23   0.0000       0.022047         0.5999 
+  24   0.0000       0.040568         1.1039 
+  25   0.0000       0.095553         2.6001 
+  26   0.0000       0.108926         2.9640 
+  27   0.0000       0.113507         3.0887 
+  28   0.0000       0.135099         3.6762 
+  29   0.0000       0.139294         3.7904 
+  30   0.0000       0.194944         5.3047 
+  31   0.0000       0.210884         5.7385 
+  32   0.0000       0.227022         6.1776 
+  33   0.0000       0.290729         7.9112 
+  34   0.0000       0.310575         8.4512 
+  35   0.0000       0.348889         9.4937 
+  36   0.0000       0.360935         9.8215 
+  37   0.0000       0.407971        11.1015 
+  38   0.0000       0.427214        11.6251 
+  39   0.0000       0.468789        12.7564 
+  40   0.0000       0.504402        13.7255 
+
+                    ********************************
+                    * MULLIKEN POPULATION ANALYSIS *
+                    ********************************
+
+-----------------------
+MULLIKEN ATOMIC CHARGES
+-----------------------
+   0 C :   -0.076885
+   1 C :   -0.075982
+   2 C :   -0.061155
+   3 C :    0.130013
+   4 C :    0.183098
+   5 C :   -0.057603
+   6 O :   -0.437760
+   7 C :    0.351007
+   8 N :   -0.431468
+   9 H :    0.072457
+  10 H :    0.071400
+  11 H :    0.084880
+  12 H :    0.088181
+  13 H :    0.159815
+Sum of atomic charges:    0.0000000
+
+
+                     *******************************
+                     * LOEWDIN POPULATION ANALYSIS *
+                     *******************************
+
+----------------------
+LOEWDIN ATOMIC CHARGES
+----------------------
+   0 C :   -0.038608
+   1 C :   -0.037649
+   2 C :   -0.026624
+   3 C :    0.090753
+   4 C :    0.141056
+   5 C :   -0.027354
+   6 O :   -0.313790
+   7 C :    0.307235
+   8 N :   -0.348639
+   9 H :    0.032912
+  10 H :    0.031905
+  11 H :    0.042781
+  12 H :    0.045642
+  13 H :    0.100378
+
+-------------------------------
+LOEWDIN REDUCED ORBITAL CHARGES
+-------------------------------
+  0 C s       :     1.088189  s :     1.088189
+      pz      :     1.010264  p :     2.950419
+      px      :     0.961439
+      py      :     0.978716
+  1 C s       :     1.088312  s :     1.088312
+      pz      :     1.008716  p :     2.949336
+      px      :     0.958282
+      py      :     0.982339
+  2 C s       :     1.085824  s :     1.085824
+      pz      :     1.010523  p :     2.940799
+      px      :     0.976957
+      py      :     0.953320
+  3 C s       :     1.047823  s :     1.047823
+      pz      :     0.981999  p :     2.861424
+      px      :     0.904455
+      py      :     0.974970
+  4 C s       :     1.054051  s :     1.054051
+      pz      :     1.020713  p :     2.804894
+      px      :     0.802520
+      py      :     0.981661
+  5 C s       :     1.083516  s :     1.083516
+      pz      :     1.017737  p :     2.943839
+      px      :     0.974670
+      py      :     0.951432
+  6 O s       :     1.704817  s :     1.704817
+      pz      :     1.845639  p :     4.608973
+      px      :     1.299409
+      py      :     1.463925
+  7 C s       :     1.112229  s :     1.112229
+      pz      :     0.821160  p :     2.580536
+      px      :     0.909036
+      py      :     0.850340
+  8 N s       :     1.609894  s :     1.609894
+      pz      :     1.263784  p :     3.738745
+      px      :     1.116630
+      py      :     1.358331
+  9 H s       :     0.967088  s :     0.967088
+ 10 H s       :     0.968095  s :     0.968095
+ 11 H s       :     0.957219  s :     0.957219
+ 12 H s       :     0.954358  s :     0.954358
+ 13 H s       :     0.899622  s :     0.899622
+
+
+                      *****************************
+                      * MAYER POPULATION ANALYSIS *
+                      *****************************
+
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0 C      4.0769     4.0000    -0.0769     3.8970     3.8970     0.0000
+  1 C      4.0760     4.0000    -0.0760     3.8968     3.8968    -0.0000
+  2 C      4.0612     4.0000    -0.0612     3.8893     3.8893    -0.0000
+  3 C      3.8700     4.0000     0.1300     3.9248     3.9248     0.0000
+  4 C      3.8169     4.0000     0.1831     3.8494     3.8494    -0.0000
+  5 C      4.0576     4.0000    -0.0576     3.8864     3.8864    -0.0000
+  6 O      6.4378     6.0000    -0.4378     2.0769     2.0769    -0.0000
+  7 C      3.6490     4.0000     0.3510     3.7820     3.7820     0.0000
+  8 N      5.4315     5.0000    -0.4315     2.9147     2.9147     0.0000
+  9 H      0.9275     1.0000     0.0725     0.9947     0.9947     0.0000
+ 10 H      0.9286     1.0000     0.0714     0.9949     0.9949    -0.0000
+ 11 H      0.9151     1.0000     0.0849     0.9928     0.9928    -0.0000
+ 12 H      0.9118     1.0000     0.0882     0.9922     0.9922    -0.0000
+ 13 H      0.8402     1.0000     0.1598     0.9745     0.9745     0.0000
+
+  Mayer bond orders larger than 0.1
+B(  0-C ,  1-C ) :   1.3831 B(  0-C ,  3-C ) :   0.1037 B(  0-C ,  5-C ) :   1.3836 
+B(  0-C ,  9-H ) :   0.9470 B(  1-C ,  2-C ) :   1.3959 B(  1-C ,  4-C ) :   0.1055 
+B(  1-C , 10-H ) :   0.9473 B(  2-C ,  3-C ) :   1.3542 B(  2-C ,  5-C ) :   0.1051 
+B(  2-C , 11-H ) :   0.9445 B(  3-C ,  4-C ) :   1.3290 B(  3-C ,  8-N ) :   1.0739 
+B(  4-C ,  5-C ) :   1.3843 B(  4-C ,  6-O ) :   0.9499 B(  5-C , 12-H ) :   0.9446 
+B(  6-O ,  7-C ) :   1.0133 B(  7-C ,  8-N ) :   1.7411 B(  7-C , 13-H ) :   0.9277 
+
+
+-------
+TIMINGS
+-------
+
+Total SCF time: 0 days 0 hours 0 min 0 sec 
+
+Total time                  ....       0.053 sec
+Sum of individual times     ....       0.049 sec  ( 91.5%)
+
+Fock matrix formation       ....       0.038 sec  ( 71.5%)
+Diagonalization             ....       0.002 sec  (  4.1%)
+Density matrix formation    ....       0.000 sec  (  0.4%)
+Population analysis         ....       0.002 sec  (  3.2%)
+Initial guess               ....       0.000 sec  (  0.6%)
+Orbital Transformation      ....       0.000 sec  (  0.0%)
+Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
+DIIS solution               ....       0.001 sec  (  1.9%)
+SOSCF solution              ....       0.005 sec  (  9.9%)
+------------------------------------------------------------------------------
+                         ORCA CIS CALCULATION
+------------------------------------------------------------------------------
+
+Input orbitals are from        ... BCMCBBGGLRIHSE-UHFFFAOYSA-N.gbw
+CI-vector output               ... BCMCBBGGLRIHSE-UHFFFAOYSA-N.cis
+Tamm-Dancoff approximation     ... operative
+CIS-Integral strategy          ... AO-integrals
+Integral handling              ... AO integral Conventional
+Reference state                ... RHF
+Generation of triplets         ... on
+Number of operators            ... 1
+Orbital ranges used for CIS calculation:
+ Operator 0:  Orbitals   0... 21  to  22... 40
+XAS localization array:
+ Operator 0:  Orbitals  -1... -1
+-------------------
+XC-INTEGRATION GRID
+-------------------
+
+General Integration Accuracy     IntAcc      ...  3.670
+Radial Grid Type                 RadialGrid  ... Gauss-Chebyshev
+Angular Grid (max. acc.)         AngularGrid ... Lebedev-50
+Angular grid pruning method      GridPruning ... 3 (G Style)
+Weight generation scheme         WeightScheme... Becke
+Basis function cutoff            BFCut       ...    1.0000e-11
+Integration weight cutoff        WCut        ...    1.0000e-14
+Grids for H and He will be reduced by one unit
+
+# of grid points (after initial pruning)     ...   8558 (   0.0 sec)
+# of grid points (after weights+screening)   ...   8056 (   0.0 sec)
+nearest neighbour list constructed           ...    0.0 sec
+Grid point re-assignment to atoms done       ...    0.0 sec
+Grid point division into batches done        ...    0.0 sec
+Reduced shell lists constructed in    0.1 sec
+
+Total number of grid points                  ...     8056
+Total number of batches                      ...      132
+Average number of points per batch           ...       61
+Average number of grid points per atom       ...      575
+Average number of shells per batch           ...    22.25 (96.73%)
+Average number of basis functions per batch  ...    39.56 (96.48%)
+Average number of large shells per batch     ...    19.32 (86.85%)
+Average number of large basis fcns per batch ...    34.69 (87.70%)
+Maximum spatial batch extension              ...  15.67, 21.61, 29.51 au
+Average spatial batch extension              ...   4.08,  4.81,  6.28 au
+
+
+
+------------------------
+DAVIDSON-DIAGONALIZATION
+------------------------
+
+Dimension of the eigenvalue problem            ...    418
+Number of roots to be determined               ...     10
+Maximum size of the expansion space            ...     25
+Convergence tolerance for the residual         ...    2.500e-07
+Convergence tolerance for the energies         ...    2.500e-07
+Orthogonality tolerance                        ...    1.000e-14
+Level Shift                                    ...    0.000e+00
+Constructing the preconditioner                ... o.k.
+Building the initial guess                     ... o.k.
+Number of trial vectors determined             ...     20
+
+
+                       ****Iteration    0****
+
+   Memory handling for direct AO based CIS:
+   Memory per vector needed      ...     1 MB
+   Memory needed                 ...     1 MB
+   Memory available              ...   512 MB
+   Number of vectors per batch   ...   512
+   Number of batches             ...     1
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.158055246009
+   Maximum Energy change  :     0.259286389493 (vector 9)
+   Maximum residual norm  :     0.012983296799
+   Rebuilding the expansion space
+
+                       ****Iteration    1****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154992651188
+   Maximum Energy change  :     0.015566290087 (vector 7)
+   Maximum residual norm  :     0.000512066119
+   Rebuilding the expansion space
+
+                       ****Iteration    2****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.004
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154708888953
+   Maximum Energy change  :     0.001347603055 (vector 5)
+   Maximum residual norm  :     0.000192896047
+   Rebuilding the expansion space
+
+                       ****Iteration    3****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154676931082
+   Maximum Energy change  :     0.000287978212 (vector 9)
+   Maximum residual norm  :     0.000043323538
+   Rebuilding the expansion space
+
+                       ****Iteration    4****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.004
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154672199604
+   Maximum Energy change  :     0.000185299967 (vector 9)
+   Maximum residual norm  :     0.000037202956
+   Rebuilding the expansion space
+
+                       ****Iteration    5****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.004
+   Time for Sigma-Completion:     0.002
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671376559
+   Maximum Energy change  :     0.000136355064 (vector 9)
+   Maximum residual norm  :     0.000029981722
+   Rebuilding the expansion space
+
+                       ****Iteration    6****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671219874
+   Maximum Energy change  :     0.000102659971 (vector 9)
+   Maximum residual norm  :     0.000026592422
+   Rebuilding the expansion space
+
+                       ****Iteration    7****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671188474
+   Maximum Energy change  :     0.000078619980 (vector 9)
+   Maximum residual norm  :     0.000021463375
+   Rebuilding the expansion space
+
+                       ****Iteration    8****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.004
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671181977
+   Maximum Energy change  :     0.000060630884 (vector 9)
+   Maximum residual norm  :     0.000018444677
+   Rebuilding the expansion space
+
+                       ****Iteration    9****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.004
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180603
+   Maximum Energy change  :     0.000047172774 (vector 9)
+   Maximum residual norm  :     0.000014338997
+   Rebuilding the expansion space
+
+                       ****Iteration   10****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180315
+   Maximum Energy change  :     0.000036935373 (vector 9)
+   Maximum residual norm  :     0.000011938722
+   Rebuilding the expansion space
+
+                       ****Iteration   11****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180253
+   Maximum Energy change  :     0.000029023155 (vector 9)
+   Maximum residual norm  :     0.000008990830
+   Rebuilding the expansion space
+
+                       ****Iteration   12****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180241
+   Maximum Energy change  :     0.000022904656 (vector 9)
+   Maximum residual norm  :     0.000007411557
+   Rebuilding the expansion space
+
+                       ****Iteration   13****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180238
+   Maximum Energy change  :     0.000018105748 (vector 9)
+   Maximum residual norm  :     0.000005506692
+   Rebuilding the expansion space
+
+                       ****Iteration   14****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000014363574 (vector 9)
+   Maximum residual norm  :     0.000004549438
+   Rebuilding the expansion space
+
+                       ****Iteration   15****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.004
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000011372244 (vector 9)
+   Maximum residual norm  :     0.000003352334
+   Rebuilding the expansion space
+
+                       ****Iteration   16****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000009089060 (vector 9)
+   Maximum residual norm  :     0.000002809533
+   Rebuilding the expansion space
+
+                       ****Iteration   17****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 19
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000007060608 (vector 9)
+   Maximum residual norm  :     0.000001945969
+   Rebuilding the expansion space
+
+                       ****Iteration   18****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 18
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000005600171 (vector 9)
+   Maximum residual norm  :     0.000001712336
+   Rebuilding the expansion space
+
+                       ****Iteration   19****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 17
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000004427864 (vector 9)
+   Maximum residual norm  :     0.000001189525
+   Rebuilding the expansion space
+
+                       ****Iteration   20****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 17
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000003498864 (vector 9)
+   Maximum residual norm  :     0.000001043945
+   Rebuilding the expansion space
+
+                       ****Iteration   21****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 17
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000002775955 (vector 9)
+   Maximum residual norm  :     0.000000721909
+   Rebuilding the expansion space
+
+                       ****Iteration   22****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 17
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000002207025 (vector 9)
+   Maximum residual norm  :     0.000000634621
+   Rebuilding the expansion space
+
+                       ****Iteration   23****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 17
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000001758993 (vector 9)
+   Maximum residual norm  :     0.000000438888
+   Rebuilding the expansion space
+
+                       ****Iteration   24****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 16
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000001403500 (vector 9)
+   Maximum residual norm  :     0.000000386406
+   Rebuilding the expansion space
+
+                       ****Iteration   25****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.004
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 16
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000001138157 (vector 9)
+   Maximum residual norm  :     0.000000276998
+   Rebuilding the expansion space
+
+                       ****Iteration   26****
+   Time for densities:     0.001
+   Time for J+K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 15
+   Lowest Energy          :     0.154671180237
+   Maximum Energy change  :     0.000000926192 (vector 9)
+   Maximum residual norm  :     0.000000249220
+
+      *** CONVERGENCE OF RESIDUAL NORM REACHED ***
+
+Storing the converged CI vectors               ... BCMCBBGGLRIHSE-UHFFFAOYSA-N.cis1
+
+                 *** DAVIDSON DONE ***
+
+Total time for solving the CIS problem:     0.293sec
+
+-----------------------------
+CIS-EXCITED STATES (SINGLETS)
+-----------------------------
+
+the weight of the individual excitations are printed if larger than 0.01
+
+STATE  1:  E=   0.154671 au      4.209 eV    33946.4 cm**-1
+    20a ->  22a  :     0.144054 (c= -0.37954402)
+    20a ->  23a  :     0.061918 (c=  0.24883340)
+    20a ->  24a  :     0.041221 (c= -0.20302887)
+    21a ->  22a  :     0.605318 (c=  0.77802204)
+    21a ->  23a  :     0.124648 (c=  0.35305549)
+
+STATE  2:  E=   0.164741 au      4.483 eV    36156.4 cm**-1
+    20a ->  22a  :     0.180707 (c= -0.42509689)
+    20a ->  24a  :     0.037672 (c= -0.19409232)
+    21a ->  22a  :     0.300049 (c= -0.54776772)
+    21a ->  23a  :     0.449651 (c=  0.67056024)
+
+STATE  3:  E=   0.176287 au      4.797 eV    38690.6 cm**-1
+    17a ->  22a  :     0.049828 (c=  0.22322233)
+    17a ->  24a  :     0.022158 (c= -0.14885536)
+    19a ->  22a  :     0.740087 (c= -0.86028294)
+    19a ->  24a  :     0.165927 (c=  0.40734153)
+
+STATE  4:  E=   0.192930 au      5.250 eV    42343.3 cm**-1
+    20a ->  22a  :     0.174469 (c=  0.41769538)
+    20a ->  23a  :     0.225170 (c=  0.47452112)
+    20a ->  24a  :     0.012463 (c= -0.11163567)
+    21a ->  23a  :     0.011040 (c=  0.10506996)
+    21a ->  24a  :     0.534684 (c=  0.73122088)
+
+STATE  5:  E=   0.202547 au      5.512 eV    44453.9 cm**-1
+    20a ->  22a  :     0.465413 (c=  0.68221174)
+    20a ->  23a  :     0.077399 (c= -0.27820621)
+    20a ->  24a  :     0.019451 (c= -0.13946564)
+    21a ->  22a  :     0.028200 (c=  0.16792747)
+    21a ->  23a  :     0.291047 (c=  0.53948777)
+    21a ->  24a  :     0.079530 (c= -0.28201000)
+
+STATE  6:  E=   0.218251 au      5.939 eV    47900.5 cm**-1
+    18a ->  22a  :     0.015393 (c=  0.12406849)
+    20a ->  23a  :     0.572110 (c=  0.75637970)
+    20a ->  24a  :     0.037391 (c=  0.19336741)
+    21a ->  22a  :     0.015377 (c= -0.12400493)
+    21a ->  24a  :     0.284005 (c= -0.53292143)
+
+STATE  7:  E=   0.226170 au      6.154 eV    49638.6 cm**-1
+    21a ->  25a  :     0.941126 (c= -0.97011646)
+    21a ->  28a  :     0.023671 (c=  0.15385308)
+
+STATE  8:  E=   0.227098 au      6.180 eV    49842.3 cm**-1
+    20a ->  23a  :     0.013583 (c= -0.11654650)
+    20a ->  24a  :     0.801688 (c=  0.89537025)
+    21a ->  22a  :     0.010685 (c=  0.10337057)
+    21a ->  23a  :     0.076472 (c=  0.27653581)
+    21a ->  24a  :     0.043318 (c=  0.20813082)
+
+STATE  9:  E=   0.242689 au      6.604 eV    53264.1 cm**-1
+    17a ->  22a  :     0.035880 (c= -0.18942084)
+    19a ->  22a  :     0.067964 (c= -0.26069961)
+    19a ->  23a  :     0.038688 (c=  0.19669384)
+    19a ->  24a  :     0.194205 (c= -0.44068652)
+    19a ->  26a  :     0.037931 (c=  0.19475933)
+    20a ->  25a  :     0.532790 (c=  0.72992435)
+    21a ->  27a  :     0.037021 (c= -0.19240817)
+
+STATE 10:  E=   0.244869 au      6.663 eV    53742.6 cm**-1
+    17a ->  22a  :     0.042463 (c= -0.20606573)
+    17a ->  23a  :     0.010109 (c=  0.10054542)
+    19a ->  22a  :     0.092622 (c= -0.30433904)
+    19a ->  23a  :     0.146213 (c=  0.38237798)
+    19a ->  24a  :     0.249822 (c= -0.49982213)
+    19a ->  26a  :     0.059426 (c=  0.24377530)
+    20a ->  25a  :     0.366941 (c= -0.60575660)
+
+
+                  ********************************
+                  * Entering triplet calculation *
+                  ********************************
+
+------------------------
+DAVIDSON-DIAGONALIZATION
+------------------------
+
+Dimension of the eigenvalue problem            ...    418
+Number of roots to be determined               ...     10
+Maximum size of the expansion space            ...     25
+Convergence tolerance for the residual         ...    2.500e-07
+Convergence tolerance for the energies         ...    2.500e-07
+Orthogonality tolerance                        ...    1.000e-14
+Level Shift                                    ...    0.000e+00
+Constructing the preconditioner                ... o.k.
+Building the initial guess                     ... o.k.
+Number of trial vectors determined             ...     20
+
+
+                       ****Iteration    0****
+                <<< Triplet sigma vectors requested >>>
+
+   Memory handling for direct AO based CIS:
+   Memory per vector needed      ...     1 MB
+   Memory needed                 ...     0 MB
+   Memory available              ...   512 MB
+   Number of vectors per batch   ...   512
+   Number of batches             ...     1
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.096847532534
+   Maximum Energy change  :     0.228590908772 (vector 9)
+   Maximum residual norm  :     0.006206841445
+   Rebuilding the expansion space
+
+                       ****Iteration    1****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.071405268596
+   Maximum Energy change  :     0.025442263939 (vector 0)
+   Maximum residual norm  :     0.000291689735
+   Rebuilding the expansion space
+
+                       ****Iteration    2****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.002
+   Size of expansion space: 20
+   Lowest Energy          :     0.070949646467
+   Maximum Energy change  :     0.002671479562 (vector 7)
+   Maximum residual norm  :     0.000279470053
+   Rebuilding the expansion space
+
+                       ****Iteration    3****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070919145777
+   Maximum Energy change  :     0.001386685963 (vector 7)
+   Maximum residual norm  :     0.000094423994
+   Rebuilding the expansion space
+
+                       ****Iteration    4****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916776002
+   Maximum Energy change  :     0.000722844484 (vector 7)
+   Maximum residual norm  :     0.000170922567
+   Rebuilding the expansion space
+
+                       ****Iteration    5****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916582689
+   Maximum Energy change  :     0.000452145310 (vector 7)
+   Maximum residual norm  :     0.000072640588
+   Rebuilding the expansion space
+
+                       ****Iteration    6****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916567406
+   Maximum Energy change  :     0.000217124680 (vector 7)
+   Maximum residual norm  :     0.000059050610
+   Rebuilding the expansion space
+
+                       ****Iteration    7****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916565824
+   Maximum Energy change  :     0.000155791057 (vector 7)
+   Maximum residual norm  :     0.000048047364
+   Rebuilding the expansion space
+
+                       ****Iteration    8****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.004
+   Time for Sigma-Completion:     0.002
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916565690
+   Maximum Energy change  :     0.000076606966 (vector 7)
+   Maximum residual norm  :     0.000011914279
+   Rebuilding the expansion space
+
+                       ****Iteration    9****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916565675
+   Maximum Energy change  :     0.000052819413 (vector 7)
+   Maximum residual norm  :     0.000024578993
+   Rebuilding the expansion space
+
+                       ****Iteration   10****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000026391593 (vector 7)
+   Maximum residual norm  :     0.000003921668
+   Rebuilding the expansion space
+
+                       ****Iteration   11****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000012687980 (vector 7)
+   Maximum residual norm  :     0.000005571105
+   Rebuilding the expansion space
+
+                       ****Iteration   12****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 18
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000009979040 (vector 9)
+   Maximum residual norm  :     0.000003570832
+   Rebuilding the expansion space
+
+                       ****Iteration   13****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.002
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 17
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000008276796 (vector 9)
+   Maximum residual norm  :     0.000002692173
+   Rebuilding the expansion space
+
+                       ****Iteration   14****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 17
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000008733645 (vector 9)
+   Maximum residual norm  :     0.000005077060
+   Rebuilding the expansion space
+
+                       ****Iteration   15****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 16
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000008336780 (vector 9)
+   Maximum residual norm  :     0.000002055363
+   Rebuilding the expansion space
+
+                       ****Iteration   16****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 16
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000009443968 (vector 9)
+   Maximum residual norm  :     0.000008688675
+   Rebuilding the expansion space
+
+                       ****Iteration   17****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 16
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000010767821 (vector 9)
+   Maximum residual norm  :     0.000002285215
+   Rebuilding the expansion space
+
+                       ****Iteration   18****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 16
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000009196443 (vector 9)
+   Maximum residual norm  :     0.000006365785
+   Rebuilding the expansion space
+
+                       ****Iteration   19****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.002
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 16
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000014093939 (vector 9)
+   Maximum residual norm  :     0.000007314297
+   Rebuilding the expansion space
+
+                       ****Iteration   20****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.002
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 15
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000011811404 (vector 9)
+   Maximum residual norm  :     0.000002800513
+
+                       ****Iteration   21****
+   Time for densities:     0.000
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.000
+   Size of expansion space: 20
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.004935858870 (vector 9)
+   Maximum residual norm  :     0.000203425644
+   Rebuilding the expansion space
+
+                       ****Iteration   22****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.002
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 14
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000619381278 (vector 9)
+   Maximum residual norm  :     0.000065539971
+
+                       ****Iteration   23****
+   Time for densities:     0.000
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.000
+   Size of expansion space: 18
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000145225641 (vector 9)
+   Maximum residual norm  :     0.000014196573
+   Rebuilding the expansion space
+
+                       ****Iteration   24****
+   Time for densities:     0.001
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 13
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000039896647 (vector 9)
+   Maximum residual norm  :     0.000007306170
+
+                       ****Iteration   25****
+   Time for densities:     0.000
+   Time for K (Conventional):     0.003
+   Time for Sigma-Completion:     0.000
+   Size of expansion space: 16
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000019952592 (vector 9)
+   Maximum residual norm  :     0.000001499088
+   Rebuilding the expansion space
+
+                       ****Iteration   26****
+   Time for densities:     0.000
+   Time for K (Conventional):     0.002
+   Time for Sigma-Completion:     0.001
+   Size of expansion space: 13
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000004590400 (vector 9)
+   Maximum residual norm  :     0.000000723983
+
+                       ****Iteration   27****
+   Time for densities:     0.000
+   Time for K (Conventional):     0.002
+   Time for Sigma-Completion:     0.000
+   Size of expansion space: 16
+   Lowest Energy          :     0.070916565673
+   Maximum Energy change  :     0.000001658029 (vector 9)
+   Maximum residual norm  :     0.000000222098
+
+      *** CONVERGENCE OF RESIDUAL NORM REACHED ***
+
+Storing the converged CI vectors               ... BCMCBBGGLRIHSE-UHFFFAOYSA-N.cis3
+
+                 *** DAVIDSON DONE ***
+
+-----------------------------
+CIS EXCITED STATES (TRIPLETS)
+-----------------------------
+
+the weight of the individual excitations are printed if larger than 0.01
+
+STATE  1:  E=   0.070917 au      1.930 eV    15564.4 cm**-1
+    16a ->  26a  :     0.029167 (c=  0.17078310)
+    18a ->  22a  :     0.021334 (c=  0.14606212)
+    18a ->  24a  :     0.061827 (c= -0.24864957)
+    20a ->  22a  :     0.046259 (c= -0.21507964)
+    20a ->  23a  :     0.180923 (c= -0.42535039)
+    21a ->  22a  :     0.508519 (c= -0.71310550)
+    21a ->  23a  :     0.080242 (c=  0.28327056)
+    21a ->  24a  :     0.044137 (c= -0.21008781)
+
+STATE  2:  E=   0.097745 au      2.660 eV    21452.5 cm**-1
+    11a ->  22a  :     0.012463 (c=  0.11163703)
+    16a ->  26a  :     0.012369 (c=  0.11121817)
+    18a ->  22a  :     0.194878 (c= -0.44144950)
+    18a ->  24a  :     0.031115 (c=  0.17639547)
+    18a ->  26a  :     0.015733 (c= -0.12542934)
+    20a ->  23a  :     0.174081 (c= -0.41722989)
+    20a ->  24a  :     0.034736 (c= -0.18637588)
+    21a ->  22a  :     0.168770 (c=  0.41081681)
+    21a ->  23a  :     0.080900 (c=  0.28442840)
+    21a ->  24a  :     0.256971 (c= -0.50692309)
+
+STATE  3:  E=   0.128014 au      3.483 eV    28095.7 cm**-1
+    20a ->  22a  :     0.300820 (c= -0.54847065)
+    20a ->  23a  :     0.021646 (c= -0.14712592)
+    20a ->  24a  :     0.126449 (c= -0.35559680)
+    21a ->  23a  :     0.520139 (c= -0.72120662)
+
+STATE  4:  E=   0.132362 au      3.602 eV    29050.2 cm**-1
+    18a ->  22a  :     0.059193 (c=  0.24329621)
+    20a ->  22a  :     0.031734 (c= -0.17814032)
+    20a ->  23a  :     0.338212 (c= -0.58156038)
+    21a ->  22a  :     0.126658 (c=  0.35589054)
+    21a ->  23a  :     0.035172 (c=  0.18754306)
+    21a ->  24a  :     0.400971 (c=  0.63322295)
+
+STATE  5:  E=   0.149417 au      4.066 eV    32793.3 cm**-1
+    15a ->  22a  :     0.012693 (c=  0.11266234)
+    17a ->  22a  :     0.057139 (c= -0.23903751)
+    17a ->  24a  :     0.028538 (c=  0.16893278)
+    19a ->  22a  :     0.647380 (c=  0.80459954)
+    19a ->  24a  :     0.226551 (c= -0.47597392)
+
+STATE  6:  E=   0.159553 au      4.342 eV    35017.8 cm**-1
+    20a ->  22a  :     0.386113 (c= -0.62137968)
+    20a ->  23a  :     0.230880 (c=  0.48050018)
+    20a ->  24a  :     0.069831 (c= -0.26425466)
+    21a ->  22a  :     0.029043 (c=  0.17041901)
+    21a ->  23a  :     0.253411 (c=  0.50339948)
+
+STATE  7:  E=   0.175668 au      4.780 eV    38554.7 cm**-1
+    16a ->  22a  :     0.019966 (c=  0.14129974)
+    16a ->  23a  :     0.092688 (c= -0.30444630)
+    18a ->  22a  :     0.018714 (c=  0.13679953)
+    18a ->  23a  :     0.055742 (c=  0.23609681)
+    18a ->  24a  :     0.011456 (c= -0.10703398)
+    20a ->  22a  :     0.035557 (c= -0.18856435)
+    20a ->  24a  :     0.254703 (c=  0.50468059)
+    20a ->  26a  :     0.200249 (c=  0.44749176)
+    21a ->  22a  :     0.020639 (c=  0.14366303)
+    21a ->  24a  :     0.045765 (c= -0.21392867)
+    21a ->  26a  :     0.228310 (c= -0.47781813)
+
+STATE  8:  E=   0.186203 au      5.067 eV    40866.9 cm**-1
+    16a ->  22a  :     0.052681 (c= -0.22952338)
+    16a ->  24a  :     0.082336 (c= -0.28694255)
+    18a ->  22a  :     0.018013 (c=  0.13421246)
+    18a ->  24a  :     0.044413 (c=  0.21074333)
+    18a ->  26a  :     0.022294 (c=  0.14931068)
+    20a ->  22a  :     0.023826 (c= -0.15435748)
+    20a ->  24a  :     0.041501 (c=  0.20371800)
+    20a ->  26a  :     0.190163 (c=  0.43607632)
+    21a ->  26a  :     0.493030 (c=  0.70216112)
+
+STATE  9:  E=   0.198063 au      5.390 eV    43469.7 cm**-1
+    16a ->  28a  :     0.016009 (c= -0.12652782)
+    20a ->  25a  :     0.052307 (c= -0.22870666)
+    20a ->  27a  :     0.010642 (c= -0.10316001)
+    20a ->  29a  :     0.011964 (c= -0.10938069)
+    21a ->  25a  :     0.797897 (c=  0.89325097)
+    21a ->  28a  :     0.050906 (c= -0.22562420)
+    21a ->  31a  :     0.010563 (c= -0.10277506)
+
+STATE 10:  E=   0.206987 au      5.632 eV    45428.4 cm**-1
+    16a ->  22a  :     0.074026 (c= -0.27207804)
+    16a ->  23a  :     0.040543 (c= -0.20135287)
+    16a ->  24a  :     0.012427 (c=  0.11147715)
+    18a ->  22a  :     0.116084 (c= -0.34071132)
+    18a ->  23a  :     0.039452 (c=  0.19862434)
+    18a ->  24a  :     0.056461 (c=  0.23761580)
+    20a ->  22a  :     0.010011 (c=  0.10005501)
+    20a ->  24a  :     0.142878 (c= -0.37799254)
+    20a ->  26a  :     0.235346 (c=  0.48512447)
+    21a ->  22a  :     0.060600 (c= -0.24617048)
+    21a ->  23a  :     0.010742 (c=  0.10364133)
+    21a ->  24a  :     0.138222 (c=  0.37178172)
+    21a ->  26a  :     0.048366 (c= -0.21992366)
+
+
+----------------------
+CIS-EXCITATION SPECTRA
+----------------------
+
+Center of mass = ( -0.6875, -0.0310,  0.0017)
+Calculating the Dipole integrals                  ... done
+Transforming integrals                            ... done
+Calculating the Linear Momentum integrals         ... done
+Transforming integrals                            ... done
+Calculating angular momentum integrals            ... done
+Transforming integrals                            ... done
+
+-----------------------------------------------------------------------------
+         ABSORPTION SPECTRUM VIA TRANSITION ELECTRIC DIPOLE MOMENTS
+-----------------------------------------------------------------------------
+State   Energy  Wavelength   fosc         T2         TX        TY        TZ  
+        (cm-1)    (nm)                  (au**2)     (au)      (au)      (au) 
+-----------------------------------------------------------------------------
+   1   33946.4    294.6   0.128329140   1.24454   1.09518   0.20969  -0.03388
+   2   36156.4    276.6   0.091995122   0.83764  -0.88580  -0.22696   0.03858
+   3   38690.6    258.5   0.005557736   0.04729   0.00260  -0.04229  -0.21330
+   4   42343.3    236.2   0.028820698   0.22408  -0.22515  -0.40885   0.07887
+   5   44453.9    225.0   0.414413142   3.06902   1.32995  -1.11722   0.22820
+   6   47900.5    208.8   0.484536272   3.33013  -1.28815  -1.26980   0.24167
+   7   49638.6    201.5   0.000018086   0.00012   0.00880  -0.00230  -0.00610
+   8   49842.3    200.6   0.266306819   1.75897   1.18260  -0.58767   0.12277
+   9   53264.1    187.7   0.000288951   0.00179  -0.00271   0.00938   0.04112
+  10   53742.6    186.1   0.001310457   0.00803  -0.00053   0.01779   0.08781
+  11   15564.4    642.5   spin forbidden (mult=3)
+  12   21452.5    466.1   spin forbidden (mult=3)
+  13   28095.7    355.9   spin forbidden (mult=3)
+  14   29050.2    344.2   spin forbidden (mult=3)
+  15   32793.3    304.9   spin forbidden (mult=3)
+  16   35017.8    285.6   spin forbidden (mult=3)
+  17   38554.7    259.4   spin forbidden (mult=3)
+  18   40866.9    244.7   spin forbidden (mult=3)
+  19   43469.7    230.0   spin forbidden (mult=3)
+  20   45428.4    220.1   spin forbidden (mult=3)
+
+-----------------------------------------------------------------------------
+         ABSORPTION SPECTRUM VIA TRANSITION VELOCITY DIPOLE MOMENTS
+-----------------------------------------------------------------------------
+State   Energy  Wavelength   fosc         P2         PX        PY        PZ  
+        (cm-1)    (nm)                  (au**2)     (au)      (au)      (au) 
+-----------------------------------------------------------------------------
+   1   33946.4    294.6   0.030508050   0.00708  -0.08289  -0.01423   0.00216
+   2   36156.4    276.6   0.023894462   0.00590   0.07479   0.01738  -0.00288
+   3   38690.6    258.5   0.109096554   0.02885  -0.00130   0.03282   0.16664
+   4   42343.3    236.2   0.007708645   0.00223   0.01318   0.04450  -0.00879
+   5   44453.9    225.0   0.095708345   0.02908  -0.14613   0.08604  -0.01793
+   6   47900.5    208.8   0.172842426   0.05658   0.18498   0.14696  -0.02771
+   7   49638.6    201.5   0.000104501   0.00004  -0.00126  -0.00098  -0.00574
+   8   49842.3    200.6   0.109900951   0.03744  -0.17333   0.08416  -0.01764
+   9   53264.1    187.7   0.008848098   0.00322   0.00078  -0.01113  -0.05565
+  10   53742.6    186.1   0.005671158   0.00208   0.00030  -0.00874  -0.04479
+  11   15564.4    642.5   spin forbidden (mult=3)
+  12   21452.5    466.1   spin forbidden (mult=3)
+  13   28095.7    355.9   spin forbidden (mult=3)
+  14   29050.2    344.2   spin forbidden (mult=3)
+  15   32793.3    304.9   spin forbidden (mult=3)
+  16   35017.8    285.6   spin forbidden (mult=3)
+  17   38554.7    259.4   spin forbidden (mult=3)
+  18   40866.9    244.7   spin forbidden (mult=3)
+  19   43469.7    230.0   spin forbidden (mult=3)
+  20   45428.4    220.1   spin forbidden (mult=3)
+
+-------------------------------------------------------------------
+                             CD SPECTRUM
+-------------------------------------------------------------------
+State   Energy Wavelength       R         MX        MY        MZ   
+        (cm-1)   (nm)       (1e40*sgs)   (au)      (au)      (au)  
+-------------------------------------------------------------------
+   1   33946.4    294.6     -0.09024  -0.00112   0.02700   0.13666
+   2   36156.4    276.6     -0.01672   0.00159  -0.04430  -0.22506
+   3   38690.6    258.5      0.28974   0.51861  -0.31390   0.06566
+   4   42343.3    236.2      0.00926   0.00019  -0.01716  -0.08816
+   5   44453.9    225.0     -0.38362  -0.00005  -0.01483  -0.07586
+   6   47900.5    208.8      0.04606   0.00120  -0.04336  -0.22103
+   7   49638.6    201.5     -0.18049  -0.03896   0.04367  -0.00994
+   8   49842.3    200.6      0.06970   0.00128  -0.04464  -0.22485
+   9   53264.1    187.7      0.34087  -0.26435   0.05654  -0.01277
+  10   53742.6    186.1      0.00797  -0.37164   0.08245  -0.01874
+  11   15564.4    642.5 spin forbidden
+  12   21452.5    466.1 spin forbidden
+  13   28095.7    355.9 spin forbidden
+  14   29050.2    344.2 spin forbidden
+  15   32793.3    304.9 spin forbidden
+  16   35017.8    285.6 spin forbidden
+  17   38554.7    259.4 spin forbidden
+  18   40866.9    244.7 spin forbidden
+  19   43469.7    230.0 spin forbidden
+  20   45428.4    220.1 spin forbidden
+
+Total run time:        0.761 sec
+
+           *** ORCA-CIS/TD-DFT FINISHED WITHOUT ERROR ***
+
+-----------------------
+CIS/TD-DFT TOTAL ENERGY
+-----------------------
+
+    E(SCF)  =     -3.430063411 Eh
+    DE(CIS) =      0.154671180 Eh (Root  1)
+    ----------------------------- ---------
+    E(tot)  =     -3.275392230 Eh
+
+
+-------------------------   --------------------
+FINAL SINGLE POINT ENERGY        -3.275392230324
+-------------------------   --------------------
+
+
+                            ***************************************
+                            *     ORCA property calculations      *
+                            ***************************************
+
+                                    ---------------------
+                                    Active property flags
+                                    ---------------------
+   (+) Dipole Moment
+
+
+------------------------------------------------------------------------------
+                       ORCA ELECTRIC PROPERTIES CALCULATION
+------------------------------------------------------------------------------
+
+Dipole Moment Calculation                       ... on
+Quadrupole Moment Calculation                   ... off
+Polarizability Calculation                      ... off
+GBWName                                         ... BCMCBBGGLRIHSE-UHFFFAOYSA-N.gbw
+Electron density file                           ... BCMCBBGGLRIHSE-UHFFFAOYSA-N.scfp.tmp
+
+-------------
+DIPOLE MOMENT
+-------------
+                                X             Y             Z
+Electronic contribution:    -19.32699      -0.09189      -0.10017
+Nuclear contribution   :      2.97268       0.99631      -0.18117
+                        -----------------------------------------
+Total Dipole Moment    :    -16.35431       0.90442      -0.28134
+                        -----------------------------------------
+Magnitude (a.u.)       :     16.38171
+Magnitude (Debye)      :     41.63901
+
+
+Timings for individual modules:
+
+Sum of individual times         ...        0.841 sec (=   0.014 min)
+STO integral calculation        ...        0.011 sec (=   0.000 min)   1.3 %
+SCF iterations                  ...        0.061 sec (=   0.001 min)   7.3 %
+CIS module                      ...        0.768 sec (=   0.013 min)  91.4 %
+                             ****ORCA TERMINATED NORMALLY****
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 0 seconds 919 msec

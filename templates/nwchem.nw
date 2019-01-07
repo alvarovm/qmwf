@@ -1,0 +1,32 @@
+
+memory total 2000  heap 400  stack 1000  global 600 mb  noverify
+
+title {{jobspec.inchikey}}
+
+start {{jobspec.inchikey}}
+echo
+
+geometry noautosym noautoz 
+
+{% for a in jobspec.coords -%}
+    {{a.element}} {{'%0.5f'|format(a.x|float)}} {{'%0.5f'|format(a.y|float)}} {{'%0.5f'|format(a.z|float)}}
+{% endfor -%}
+
+end
+
+basis
+#* library sto-3g
+ * library 6-31g*
+end
+
+set quickguess t
+dft
+ xc b3lyp
+ direct
+ noio
+end
+driver
+ maxiter 5
+end
+
+task dft optimize

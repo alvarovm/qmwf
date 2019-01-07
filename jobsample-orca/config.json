@@ -1,0 +1,7 @@
+{
+    "extra_template_filenames": ["zindo.inp"],
+    "job_template_filename": "job.sh",
+    "loader_module": "loader",
+    "name": "zindo",
+    "parent_class_name": "Geom"
+}

@@ -1,0 +1,512 @@
+{
+    "PRISTINE": [
+        {
+            "SMI_TYPE": "CAN", 
+            "NEL": 62, 
+            "SMI": "c1ccc2c(c1)ocn2"
+        }
+    ], 
+    "FILTERED": [
+        {
+            "STATUS": "NonAlkyl", 
+            "NEL": 62, 
+            "mopac": [
+                {
+                    "orbital_energy_list": [
+                        {
+                            "spin": "alpha", 
+                            "energy": -36.69128, 
+                            "type": "occ", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -30.84429, 
+                            "type": "occ", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -30.68517, 
+                            "type": "occ", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -26.35569, 
+                            "type": "occ", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -25.61553, 
+                            "type": "occ", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -22.52914, 
+                            "type": "occ", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -21.5012, 
+                            "type": "occ", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -21.40364, 
+                            "type": "occ", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -17.76548, 
+                            "type": "occ", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -17.48804, 
+                            "type": "occ", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.83834, 
+                            "type": "occ", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.18992, 
+                            "type": "occ", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.30766, 
+                            "type": "occ", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.74482, 
+                            "type": "occ", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.50057, 
+                            "type": "occ", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.14163, 
+                            "type": "occ", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.13376, 
+                            "type": "occ", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.5803, 
+                            "type": "occ", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.3396, 
+                            "type": "occ", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.42115, 
+                            "type": "occ", 
+                            "number": 20, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -9.89225, 
+                            "type": "occ", 
+                            "number": 21, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -9.71758, 
+                            "type": "occ", 
+                            "number": 22, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -0.67725, 
+                            "type": "unocc", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -0.15987, 
+                            "type": "unocc", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.82329, 
+                            "type": "unocc", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 1.16813, 
+                            "type": "unocc", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.14595, 
+                            "type": "unocc", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.74531, 
+                            "type": "unocc", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.27843, 
+                            "type": "unocc", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.82371, 
+                            "type": "unocc", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.11276, 
+                            "type": "unocc", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.36751, 
+                            "type": "unocc", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.4562, 
+                            "type": "unocc", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.75441, 
+                            "type": "unocc", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.90964, 
+                            "type": "unocc", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.12017, 
+                            "type": "unocc", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.38395, 
+                            "type": "unocc", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.55956, 
+                            "type": "unocc", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.7693, 
+                            "type": "unocc", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.83978, 
+                            "type": "unocc", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.89408, 
+                            "type": "unocc", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }
+                    ], 
+                    "meta_data": {
+                        "generation": 1, 
+                        "program": "MOPAC", 
+                        "worker_name": "BCMCBBGGLRIHSE-UHFFFAOYSA-N_CONF_0", 
+                        "version": "17.093L)", 
+                        "wall_clock_time": 0.184
+                    }, 
+                    "coords": [
+                        {
+                            "y": 0.8089579, 
+                            "x": 1.72054406, 
+                            "z": -0.1480225, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.56518871, 
+                            "x": 1.82358387, 
+                            "z": 0.12246827, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.37499265, 
+                            "x": 0.70036333, 
+                            "z": 0.27511753, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.7617908, 
+                            "x": -0.54015959, 
+                            "z": 0.14693601, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.63327206, 
+                            "x": -0.62133399, 
+                            "z": -0.12801502, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.44514998, 
+                            "x": 0.48672782, 
+                            "z": -0.28046114, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.97840166, 
+                            "x": -1.95526423, 
+                            "z": -0.20520106, 
+                            "element": "O"
+                        }, 
+                        {
+                            "y": -0.22171341, 
+                            "x": -2.6441049, 
+                            "z": 0.02591753, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.24971992, 
+                            "x": -1.86421206, 
+                            "z": 0.23370864, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 1.39431156, 
+                            "x": 2.63450129, 
+                            "z": -0.25798681, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.00851583, 
+                            "x": 2.81522574, 
+                            "z": 0.21519102, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.44010621, 
+                            "x": 0.77729948, 
+                            "z": 0.48466278, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.50671596, 
+                            "x": 0.40117317, 
+                            "z": -0.48957015, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.12462809, 
+                            "x": -3.71236887, 
+                            "z": -0.00105584, 
+                            "element": "H"
+                        }
+                    ], 
+                    "properties": {
+                        "electronic_energy": -6214.15315, 
+                        "electric_dipole_moment_norm": 1.73175, 
+                        "molecular_weight": 119.1226, 
+                        "core_core_repulsion": 4806.54709, 
+                        "gap": 9.041, 
+                        "lumo": -0.677, 
+                        "homo": -9.718, 
+                        "total_energy": -1407.60607, 
+                        "occupied_orbital_number": 22, 
+                        "heat_of_formation": 17.99222
+                    }, 
+                    "theory": {
+                        "name": "semiempirical_pm7", 
+                        "description": "PM7 optimization"
+                    }
+                }
+            ], 
+            "SMI_TYPE": "CAN", 
+            "SMI": "c1ccc2c(c1)ocn2", 
+            "conformers": [
+                {
+                    "mffenergy": "18.6608955755", 
+                    "coords": [
+                        {
+                            "y": 0.8085, 
+                            "x": 1.7242, 
+                            "z": -0.1477, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.5629, 
+                            "x": 1.8249, 
+                            "z": 0.1224, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.3598, 
+                            "x": 0.679, 
+                            "z": 0.2716, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.7457, 
+                            "x": -0.5732, 
+                            "z": 0.1428, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.6136, 
+                            "x": -0.629, 
+                            "z": -0.1247, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.4369, 
+                            "x": 0.4794, 
+                            "z": -0.2793, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.9692, 
+                            "x": -1.9448, 
+                            "z": -0.2031, 
+                            "element": "O"
+                        }, 
+                        {
+                            "y": -0.2021, 
+                            "x": -2.6052, 
+                            "z": 0.0228, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.2546, 
+                            "x": -1.8447, 
+                            "z": 0.2346, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 1.3987, 
+                            "x": 2.6324, 
+                            "z": -0.2578, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.0204, 
+                            "x": 2.8078, 
+                            "z": 0.2187, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.421, 
+                            "x": 0.7529, 
+                            "z": 0.4807, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.4945, 
+                            "x": 0.3813, 
+                            "z": -0.4878, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.1548, 
+                            "x": -3.6849, 
+                            "z": 0.0066, 
+                            "element": "H"
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "inchikey": "BCMCBBGGLRIHSE-UHFFFAOYSA-N", 
+    "lock": "yes"
+}

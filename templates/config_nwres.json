@@ -1,0 +1,7 @@
+{
+    "name": "pm7_opt_freq",
+    "job_template_filename": "job.sh",
+    "loader_module": "loader",
+    "parent_class_name": "Geom",
+    "extra_template_filenames": ["nwchemres.nw"]
+}

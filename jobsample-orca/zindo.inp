@@ -1,0 +1,11 @@
+!RHF ZINDO/S TightSCF DIIS NoRICO NoMOPrint
+%cis NRoots 10
+MaxDim 25
+triplets true
+end
+
+* xyz 0 1
+{% for a in jobspec.coords -%}
+    {{a.element}} {{'%0.5f'|format(a.x|float)}} {{'%0.5f'|format(a.y|float)}} {{'%0.5f'|format(a.z|float)}}
+{% endfor -%}
+*

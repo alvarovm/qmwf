@@ -1,0 +1,1789 @@
+{
+    "PRISTINE": [
+        {
+            "SMI_TYPE": "CAN", 
+            "NEL": 110, 
+            "SMI": "Nc1ccccc1c1nc2n(c1)cccc2"
+        }
+    ], 
+    "FILTERED": [
+        {
+            "STATUS": "NonAlkyl", 
+            "NEL": 110, 
+            "mopac": [
+                {
+                    "orbital_energy_list": [
+                        {
+                            "spin": "alpha", 
+                            "energy": -38.92708, 
+                            "type": "occ", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -36.47885, 
+                            "type": "occ", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -34.31294, 
+                            "type": "occ", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -30.03679, 
+                            "type": "occ", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -29.50246, 
+                            "type": "occ", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -26.89847, 
+                            "type": "occ", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -26.24061, 
+                            "type": "occ", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -25.06823, 
+                            "type": "occ", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -24.6835, 
+                            "type": "occ", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -22.40992, 
+                            "type": "occ", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -22.09324, 
+                            "type": "occ", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -21.86379, 
+                            "type": "occ", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -20.67063, 
+                            "type": "occ", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -19.73288, 
+                            "type": "occ", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -18.19716, 
+                            "type": "occ", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -17.59348, 
+                            "type": "occ", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -17.33531, 
+                            "type": "occ", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.91523, 
+                            "type": "occ", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.26464, 
+                            "type": "occ", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.98336, 
+                            "type": "occ", 
+                            "number": 20, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.72978, 
+                            "type": "occ", 
+                            "number": 21, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.44319, 
+                            "type": "occ", 
+                            "number": 22, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.99921, 
+                            "type": "occ", 
+                            "number": 23, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.38662, 
+                            "type": "occ", 
+                            "number": 24, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.31619, 
+                            "type": "occ", 
+                            "number": 25, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.95978, 
+                            "type": "occ", 
+                            "number": 26, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.85351, 
+                            "type": "occ", 
+                            "number": 27, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.36336, 
+                            "type": "occ", 
+                            "number": 28, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.85221, 
+                            "type": "occ", 
+                            "number": 29, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.65492, 
+                            "type": "occ", 
+                            "number": 30, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.18602, 
+                            "type": "occ", 
+                            "number": 31, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.95137, 
+                            "type": "occ", 
+                            "number": 32, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.83545, 
+                            "type": "occ", 
+                            "number": 33, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.28947, 
+                            "type": "occ", 
+                            "number": 34, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -10.99697, 
+                            "type": "occ", 
+                            "number": 35, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -10.30559, 
+                            "type": "occ", 
+                            "number": 36, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -9.22751, 
+                            "type": "occ", 
+                            "number": 37, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -8.97724, 
+                            "type": "occ", 
+                            "number": 38, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -8.00895, 
+                            "type": "occ", 
+                            "number": 39, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -0.74888, 
+                            "type": "unocc", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -0.18744, 
+                            "type": "unocc", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.2359, 
+                            "type": "unocc", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.66577, 
+                            "type": "unocc", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 1.48134, 
+                            "type": "unocc", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 1.54882, 
+                            "type": "unocc", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.01141, 
+                            "type": "unocc", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.75513, 
+                            "type": "unocc", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.02683, 
+                            "type": "unocc", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.27141, 
+                            "type": "unocc", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.53302, 
+                            "type": "unocc", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.75167, 
+                            "type": "unocc", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.10808, 
+                            "type": "unocc", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.25502, 
+                            "type": "unocc", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.29341, 
+                            "type": "unocc", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.49011, 
+                            "type": "unocc", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.64084, 
+                            "type": "unocc", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.89307, 
+                            "type": "unocc", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.04422, 
+                            "type": "unocc", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.07808, 
+                            "type": "unocc", 
+                            "number": 20, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.19109, 
+                            "type": "unocc", 
+                            "number": 21, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.2914, 
+                            "type": "unocc", 
+                            "number": 22, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.41532, 
+                            "type": "unocc", 
+                            "number": 23, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.50081, 
+                            "type": "unocc", 
+                            "number": 24, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.52693, 
+                            "type": "unocc", 
+                            "number": 25, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.65986, 
+                            "type": "unocc", 
+                            "number": 26, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.72296, 
+                            "type": "unocc", 
+                            "number": 27, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.84692, 
+                            "type": "unocc", 
+                            "number": 28, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.87869, 
+                            "type": "unocc", 
+                            "number": 29, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.00078, 
+                            "type": "unocc", 
+                            "number": 30, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.21571, 
+                            "type": "unocc", 
+                            "number": 31, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.27419, 
+                            "type": "unocc", 
+                            "number": 32, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.40863, 
+                            "type": "unocc", 
+                            "number": 33, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.54617, 
+                            "type": "unocc", 
+                            "number": 34, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.60816, 
+                            "type": "unocc", 
+                            "number": 35, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 7.43443, 
+                            "type": "unocc", 
+                            "number": 36, 
+                            "method": "rhf"
+                        }
+                    ], 
+                    "meta_data": {
+                        "generation": 1, 
+                        "program": "MOPAC", 
+                        "worker_name": "ARUHCDRGLVIGLO-UHFFFAOYSA-N_CONF_0", 
+                        "version": "17.093L)", 
+                        "wall_clock_time": 1.276
+                    }, 
+                    "coords": [
+                        {
+                            "y": -1.9764246, 
+                            "x": -2.0161103, 
+                            "z": -0.6383576, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.65507659, 
+                            "x": -2.40388999, 
+                            "z": -0.56628638, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.33220894, 
+                            "x": -3.75969817, 
+                            "z": -0.82706271, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.98547076, 
+                            "x": -4.17629364, 
+                            "z": -0.82344278, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 2.0164532, 
+                            "x": -3.26930367, 
+                            "z": -0.55679158, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.71048829, 
+                            "x": -1.9413158, 
+                            "z": -0.29850848, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.38775231, 
+                            "x": -1.47747331, 
+                            "z": -0.30242912, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.16207234, 
+                            "x": -0.07324672, 
+                            "z": -0.02898774, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.02688408, 
+                            "x": 0.4290086, 
+                            "z": 0.48152745, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.87503475, 
+                            "x": 1.76303491, 
+                            "z": 0.63932512, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.43302441, 
+                            "x": 2.13594293, 
+                            "z": 0.21083988, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 1.07999748, 
+                            "x": 0.98043485, 
+                            "z": -0.21217381, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.85479827, 
+                            "x": 3.44415709, 
+                            "z": 0.2366786, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.00553788, 
+                            "x": 4.40742875, 
+                            "z": 0.70355976, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.31240146, 
+                            "x": 4.06678839, 
+                            "z": 1.15143062, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.74821967, 
+                            "x": 2.76952249, 
+                            "z": 1.12374112, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -2.23477546, 
+                            "x": -1.10717276, 
+                            "z": -0.28664694, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.6939226, 
+                            "x": -2.70691989, 
+                            "z": -0.6426792, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.12798214, 
+                            "x": -4.46716171, 
+                            "z": -1.03373215, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.22615358, 
+                            "x": -5.22019652, 
+                            "z": -1.02497128, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 3.04768818, 
+                            "x": -3.60470027, 
+                            "z": -0.54861191, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.51953296, 
+                            "x": -1.24362765, 
+                            "z": -0.07456058, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.07145828, 
+                            "x": 0.96924392, 
+                            "z": -0.60441262, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.86524446, 
+                            "x": 3.65576972, 
+                            "z": -0.11905306, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.30582891, 
+                            "x": 5.45008496, 
+                            "z": 0.73414618, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.96049356, 
+                            "x": 4.86398085, 
+                            "z": 1.51670961, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.7409766, 
+                            "x": 2.46939598, 
+                            "z": 1.45775038, 
+                            "element": "H"
+                        }
+                    ], 
+                    "properties": {
+                        "electronic_energy": -14350.08939, 
+                        "electric_dipole_moment_norm": 2.84637, 
+                        "molecular_weight": 209.25, 
+                        "core_core_repulsion": 12047.12922, 
+                        "gap": 7.260000000000001, 
+                        "lumo": -0.749, 
+                        "homo": -8.009, 
+                        "total_energy": -2302.96017, 
+                        "occupied_orbital_number": 39, 
+                        "heat_of_formation": 79.11877
+                    }, 
+                    "theory": {
+                        "name": "semiempirical_pm7", 
+                        "description": "PM7 optimization"
+                    }
+                }, 
+                {
+                    "orbital_energy_list": [
+                        {
+                            "spin": "alpha", 
+                            "energy": -38.90206, 
+                            "type": "occ", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -36.6318, 
+                            "type": "occ", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -34.29651, 
+                            "type": "occ", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -30.08715, 
+                            "type": "occ", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -29.50387, 
+                            "type": "occ", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -26.84387, 
+                            "type": "occ", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -26.15768, 
+                            "type": "occ", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -25.25268, 
+                            "type": "occ", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -24.7353, 
+                            "type": "occ", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -22.42331, 
+                            "type": "occ", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -22.0034, 
+                            "type": "occ", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -21.70572, 
+                            "type": "occ", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -20.88499, 
+                            "type": "occ", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -19.75764, 
+                            "type": "occ", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -18.13047, 
+                            "type": "occ", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -17.77743, 
+                            "type": "occ", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -17.35705, 
+                            "type": "occ", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.75052, 
+                            "type": "occ", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -16.56503, 
+                            "type": "occ", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.98976, 
+                            "type": "occ", 
+                            "number": 20, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.62336, 
+                            "type": "occ", 
+                            "number": 21, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.51516, 
+                            "type": "occ", 
+                            "number": 22, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -15.04133, 
+                            "type": "occ", 
+                            "number": 23, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.42545, 
+                            "type": "occ", 
+                            "number": 24, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.40742, 
+                            "type": "occ", 
+                            "number": 25, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -14.00356, 
+                            "type": "occ", 
+                            "number": 26, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.8391, 
+                            "type": "occ", 
+                            "number": 27, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -13.34727, 
+                            "type": "occ", 
+                            "number": 28, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.82219, 
+                            "type": "occ", 
+                            "number": 29, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.6373, 
+                            "type": "occ", 
+                            "number": 30, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -12.2268, 
+                            "type": "occ", 
+                            "number": 31, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.94359, 
+                            "type": "occ", 
+                            "number": 32, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.80451, 
+                            "type": "occ", 
+                            "number": 33, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -11.36093, 
+                            "type": "occ", 
+                            "number": 34, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -10.95688, 
+                            "type": "occ", 
+                            "number": 35, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -10.10246, 
+                            "type": "occ", 
+                            "number": 36, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -9.27019, 
+                            "type": "occ", 
+                            "number": 37, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -8.99174, 
+                            "type": "occ", 
+                            "number": 38, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -8.33657, 
+                            "type": "occ", 
+                            "number": 39, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -0.71962, 
+                            "type": "unocc", 
+                            "number": 1, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": -0.18737, 
+                            "type": "unocc", 
+                            "number": 2, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.26223, 
+                            "type": "unocc", 
+                            "number": 3, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 0.55341, 
+                            "type": "unocc", 
+                            "number": 4, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 1.40232, 
+                            "type": "unocc", 
+                            "number": 5, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 1.47178, 
+                            "type": "unocc", 
+                            "number": 6, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.024, 
+                            "type": "unocc", 
+                            "number": 7, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.67487, 
+                            "type": "unocc", 
+                            "number": 8, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 2.9849, 
+                            "type": "unocc", 
+                            "number": 9, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.1447, 
+                            "type": "unocc", 
+                            "number": 10, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.56214, 
+                            "type": "unocc", 
+                            "number": 11, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 3.77331, 
+                            "type": "unocc", 
+                            "number": 12, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.06459, 
+                            "type": "unocc", 
+                            "number": 13, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.24591, 
+                            "type": "unocc", 
+                            "number": 14, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.34372, 
+                            "type": "unocc", 
+                            "number": 15, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.48636, 
+                            "type": "unocc", 
+                            "number": 16, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.58433, 
+                            "type": "unocc", 
+                            "number": 17, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 4.86703, 
+                            "type": "unocc", 
+                            "number": 18, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.05528, 
+                            "type": "unocc", 
+                            "number": 19, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.0715, 
+                            "type": "unocc", 
+                            "number": 20, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.13007, 
+                            "type": "unocc", 
+                            "number": 21, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.2818, 
+                            "type": "unocc", 
+                            "number": 22, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.35549, 
+                            "type": "unocc", 
+                            "number": 23, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.46934, 
+                            "type": "unocc", 
+                            "number": 24, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.55106, 
+                            "type": "unocc", 
+                            "number": 25, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.68912, 
+                            "type": "unocc", 
+                            "number": 26, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.72875, 
+                            "type": "unocc", 
+                            "number": 27, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.86549, 
+                            "type": "unocc", 
+                            "number": 28, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.90881, 
+                            "type": "unocc", 
+                            "number": 29, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 5.9769, 
+                            "type": "unocc", 
+                            "number": 30, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.12658, 
+                            "type": "unocc", 
+                            "number": 31, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.20131, 
+                            "type": "unocc", 
+                            "number": 32, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.3459, 
+                            "type": "unocc", 
+                            "number": 33, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.49575, 
+                            "type": "unocc", 
+                            "number": 34, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.56991, 
+                            "type": "unocc", 
+                            "number": 35, 
+                            "method": "rhf"
+                        }, 
+                        {
+                            "spin": "alpha", 
+                            "energy": 6.89601, 
+                            "type": "unocc", 
+                            "number": 36, 
+                            "method": "rhf"
+                        }
+                    ], 
+                    "meta_data": {
+                        "generation": 1, 
+                        "program": "MOPAC", 
+                        "worker_name": "ARUHCDRGLVIGLO-UHFFFAOYSA-N_CONF_1", 
+                        "version": "17.093L)", 
+                        "wall_clock_time": 1.392
+                    }, 
+                    "coords": [
+                        {
+                            "y": -2.05331889, 
+                            "x": -1.83801124, 
+                            "z": 0.59653365, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.85278253, 
+                            "x": -2.36616956, 
+                            "z": 0.11971015, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.72451449, 
+                            "x": -3.76124219, 
+                            "z": -0.02944552, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.4769526, 
+                            "x": -4.30270244, 
+                            "z": -0.46278323, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.55991801, 
+                            "x": -3.47602108, 
+                            "z": -0.76623718, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.43894331, 
+                            "x": -2.09799312, 
+                            "z": -0.62205166, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.24797717, 
+                            "x": -1.52650745, 
+                            "z": -0.1652997, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.17546719, 
+                            "x": -0.08640176, 
+                            "z": -0.00919769, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.6422982, 
+                            "x": 0.7742299, 
+                            "z": -0.98832213, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 0.45119797, 
+                            "x": 2.03448448, 
+                            "z": -0.53726996, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.1543804, 
+                            "x": 1.98608543, 
+                            "z": 0.75495393, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.3206815, 
+                            "x": 0.64693339, 
+                            "z": 1.08575537, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.45957685, 
+                            "x": 3.13281216, 
+                            "z": 1.45270767, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.16596669, 
+                            "x": 4.34755969, 
+                            "z": 0.88598962, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.44002014, 
+                            "x": 4.43125908, 
+                            "z": -0.40033125, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.74343762, 
+                            "x": 3.30048176, 
+                            "z": -1.10732686, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -2.21100006, 
+                            "x": -0.85877881, 
+                            "z": 0.45402689, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.87282047, 
+                            "x": -2.40772336, 
+                            "z": 0.54104059, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.56519063, 
+                            "x": -4.40721314, 
+                            "z": 0.19949197, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.57379567, 
+                            "x": -5.38291918, 
+                            "z": -0.5725846, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.49212056, 
+                            "x": -3.90626519, 
+                            "z": -1.11730527, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.27796615, 
+                            "x": -1.44254476, 
+                            "z": -0.8712987, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.71733583, 
+                            "x": 0.30667313, 
+                            "z": 2.01752734, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.92363728, 
+                            "x": 3.01862361, 
+                            "z": 2.43423234, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.39408999, 
+                            "x": 5.2687939, 
+                            "z": 1.41956666, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.65763419, 
+                            "x": 5.41849218, 
+                            "z": -0.80767858, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.20606361, 
+                            "x": 3.31996338, 
+                            "z": -2.09492311, 
+                            "element": "H"
+                        }
+                    ], 
+                    "properties": {
+                        "electronic_energy": -14350.12605, 
+                        "electric_dipole_moment_norm": 4.0898, 
+                        "molecular_weight": 209.25, 
+                        "core_core_repulsion": 12047.24211, 
+                        "gap": 7.617, 
+                        "lumo": -0.72, 
+                        "homo": -8.337, 
+                        "total_energy": -2302.88394, 
+                        "occupied_orbital_number": 39, 
+                        "heat_of_formation": 81.39212
+                    }, 
+                    "theory": {
+                        "name": "semiempirical_pm7", 
+                        "description": "PM7 optimization"
+                    }
+                }
+            ], 
+            "SMI_TYPE": "CAN", 
+            "SMI": "Nc1ccccc1c1nc2n(c1)cccc2", 
+            "conformers": [
+                {
+                    "mffenergy": "49.8924615642", 
+                    "coords": [
+                        {
+                            "y": -1.9671, 
+                            "x": -1.9128, 
+                            "z": -0.7004, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.6365, 
+                            "x": -2.3623, 
+                            "z": -0.5419, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.3486, 
+                            "x": -3.6972, 
+                            "z": -0.8632, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.9626, 
+                            "x": -4.1731, 
+                            "z": -0.8475, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 2.009, 
+                            "x": -3.3102, 
+                            "z": -0.5413, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.7454, 
+                            "x": -1.9667, 
+                            "z": -0.2658, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.4294, 
+                            "x": -1.469, 
+                            "z": -0.2819, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.1788, 
+                            "x": -0.0591, 
+                            "z": 0.0094, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.0133, 
+                            "x": 0.409, 
+                            "z": 0.5342, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.8611, 
+                            "x": 1.7116, 
+                            "z": 0.646, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.3944, 
+                            "x": 2.115, 
+                            "z": 0.2055, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 1.0575, 
+                            "x": 0.9849, 
+                            "z": -0.1993, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.8219, 
+                            "x": 3.441, 
+                            "z": 0.207, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.0102, 
+                            "x": 4.3959, 
+                            "z": 0.6565, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.3332, 
+                            "x": 4.0125, 
+                            "z": 1.1277, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -1.7387, 
+                            "x": 2.7271, 
+                            "z": 1.1217, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -2.0932, 
+                            "x": -1.0198, 
+                            "z": -0.2073, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.6585, 
+                            "x": -2.5989, 
+                            "z": -0.4222, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.1536, 
+                            "x": -4.3746, 
+                            "z": -1.1359, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.1643, 
+                            "x": -5.2141, 
+                            "z": -1.0852, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 3.0315, 
+                            "x": -3.6781, 
+                            "z": -0.526, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.5822, 
+                            "x": -1.3148, 
+                            "z": -0.0299, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.0588, 
+                            "x": 1.0278, 
+                            "z": -0.6007, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.8192, 
+                            "x": 3.6461, 
+                            "z": -0.1598, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.2733, 
+                            "x": 5.4427, 
+                            "z": 0.678, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.9912, 
+                            "x": 4.7982, 
+                            "z": 1.4868, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.7232, 
+                            "x": 2.4388, 
+                            "z": 1.4712, 
+                            "element": "H"
+                        }
+                    ]
+                }, 
+                {
+                    "mffenergy": "52.3331964574", 
+                    "coords": [
+                        {
+                            "y": -2.1103, 
+                            "x": -1.875, 
+                            "z": 0.6278, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.8876, 
+                            "x": -2.3502, 
+                            "z": 0.1049, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.6851, 
+                            "x": -3.7396, 
+                            "z": 0.0695, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.5193, 
+                            "x": -4.2847, 
+                            "z": -0.3802, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.5566, 
+                            "x": -3.4462, 
+                            "z": -0.7704, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 1.398, 
+                            "x": -2.0637, 
+                            "z": -0.6788, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.1977, 
+                            "x": -1.5017, 
+                            "z": -0.2074, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.1467, 
+                            "x": -0.0535, 
+                            "z": -0.0813, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.6541, 
+                            "x": 0.8055, 
+                            "z": -1.0328, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": 0.465, 
+                            "x": 2.0146, 
+                            "z": -0.5476, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.1348, 
+                            "x": 1.9703, 
+                            "z": 0.7066, 
+                            "element": "N"
+                        }, 
+                        {
+                            "y": -0.33, 
+                            "x": 0.6482, 
+                            "z": 1.0064, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.4427, 
+                            "x": 3.1046, 
+                            "z": 1.4542, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -0.1539, 
+                            "x": 4.3172, 
+                            "z": 0.9514, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.473, 
+                            "x": 4.405, 
+                            "z": -0.3598, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": 0.7689, 
+                            "x": 3.3018, 
+                            "z": -1.0754, 
+                            "element": "C"
+                        }, 
+                        {
+                            "y": -2.3353, 
+                            "x": -0.9469, 
+                            "z": 0.2769, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -2.8797, 
+                            "x": -2.5214, 
+                            "z": 0.4835, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -1.4782, 
+                            "x": -4.4138, 
+                            "z": 0.3829, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.6452, 
+                            "x": -5.3633, 
+                            "z": -0.422, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.4946, 
+                            "x": -3.8627, 
+                            "z": -1.1272, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 2.2243, 
+                            "x": -1.4132, 
+                            "z": -0.9611, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.7632, 
+                            "x": 0.3253, 
+                            "z": 1.9422, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.9063, 
+                            "x": 2.9559, 
+                            "z": 2.4208, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": -0.3719, 
+                            "x": 5.2313, 
+                            "z": 1.493, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 0.6992, 
+                            "x": 5.3933, 
+                            "z": -0.7488, 
+                            "element": "H"
+                        }, 
+                        {
+                            "y": 1.2367, 
+                            "x": 3.3628, 
+                            "z": -2.0511, 
+                            "element": "H"
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "inchikey": "ARUHCDRGLVIGLO-UHFFFAOYSA-N", 
+    "lock": "yes"
+}
