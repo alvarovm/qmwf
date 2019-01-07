@@ -1,12 +1,8 @@
-=QMWF: Quantum Mechanics Workflow for Data Science
-
-
-This repo is sample of QMFM.
-
-
+#QMWF: Quantum Mechanics Workflow for Data Science
 
 
 
 
 
 Author: Alvaro Vazquez Mayagoitia
+
